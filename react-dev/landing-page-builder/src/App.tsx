@@ -21,11 +21,13 @@ import ConfirmModal from './components/ui/modal/ConfirmModal'
 import { installFetchDuplicateDetector, installFetchMonitor } from './utils/BurstFetchBlocker'
 import { toast } from 'sonner'
 import FeatureTogglePanel from './components/EditorUI/FeatureTogglePanel'
+import TestPage from './pages/TestPaage'
 
 const pageMap: Record<string, React.ComponentType> = {
   '/landing-page-builder/editor': Editor,
   '/landing-page-builder/preview': Preview,
   '/landing-page-builder/capture-render': CaptureRender,
+  '/':TestPage
 }
 
 
