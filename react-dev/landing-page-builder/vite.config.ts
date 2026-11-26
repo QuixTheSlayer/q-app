@@ -4,7 +4,7 @@ import path from 'path'
 import { randomBytes } from 'crypto';
 import { readdirSync, renameSync, rmSync, writeFileSync } from 'fs';
 
-const ROOT = "C:/wamp64/www/Judgify-Judging-Panel-v2/public/js/landing-page-builder";
+const ROOT = "../../public/js/landing-page-builder";
 const KEEP = 3; // builds kept on disk for tabs that are still open
 
 const buildId = Date.now().toString(36) + "-" + randomBytes(3).toString("hex");
@@ -51,7 +51,7 @@ export default defineConfig({
           /node_modules[\\/](framer-motion|motion)[\\/]/.test(id) ? true : !external,
       },
       output: {
-        dir: "C:/wamp64/www/Judgify-Judging-Panel-v2/public/js/landing-page-builder/",
+        dir: "../../public/js/landing-page-builder/",
         // manualChunks: false,
         // inlineDynamicImports: true,
         entryFileNames: `${buildId}/index.js`,
