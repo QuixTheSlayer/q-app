@@ -1,0 +1,46 @@
+{
+  "language": {
+    "label": "Langue",
+    "en": "Anglais"
+  },
+  "planTierSaveWarning": "Remarque : {{count}} élément(s) de cette page sont réservés au forfait {{tiers}}. Cette page ne peut être utilisée que pour des événements du forfait {{tiers}}.",
+  "planTierBanner": "Cette page contient {{count}} élément(s) réservé(s) à Enterprise. Elle ne peut être utilisée que pour des événements du forfait Enterprise.",
+  "navbar": {
+    "backToDashboard": "Retour au tableau de bord",
+    "pageTitle": "Titre de la page",
+    "untitled": "Sans titre",
+    "view": "Vue :",
+    "previewDesktopView": "Aperçu vue bureau",
+    "desktop": "Bureau",
+    "previewTabletView": "Aperçu vue tablette",
+    "tablet": "Tablette",
+    "previewMobileView": "Aperçu vue mobile",
+    "mobile": "Mobile",
+    "allChangesSaved": "Toutes les modifications sont enregistrées",
+    "synced": "Synchronisé",
+    "unsavedChangesTitle": "Vous avez des modifications non enregistrées",
+    "unsavedChanges": "Modifications non enregistrées",
+    "savingChanges": "Enregistrement des modifications…",
+    "syncing": "Synchronisation",
+    "failedToSaveChanges": "Échec de l'enregistrement des modifications",
+    "errorSyncing": "Erreur de synchronisation",
+    "savedToLocalStorageOnly": "Enregistré uniquement en local (échec de la synchronisation serveur)",
+    "savedToLocal": "Enregistré en local",
+    "openTour": "Démarrer la visite",
+    "toggleTheme": "Changer de thème",
+    "toggleThemeShortcut": "Changer de thème ({{keys}})",
+    "saveShortcut": "Enregistrer ({{keys}})",
+    "save": "Enregistrer",
+    "savePage": "Enregistrer la page",
+    "switchToPreviewShortcut": "Passer en aperçu ({{keys}})",
+    "switchToPreview": "Passer en aperçu",
+    "switchToPreviewPage": "Passer en aperçu de la page",
+    "preview": "Aperçu",
+    "networkError": "Erreur réseau !"
+  },
+  "canvas": {
+    "openInsertPanel": "Ouvrir le panneau Insertion",
+    "openPropertyPanel": "Ouvrir le panneau Propriétés",
+    "emptyPageMessage": "Votre page est vide. Commencez par insérer une section."
+  }
+}

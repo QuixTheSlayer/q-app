@@ -1,0 +1,75 @@
+{
+  "ariaLabel": "Einführungstour",
+  "next": "Weiter",
+  "back": "Zurück",
+  "finish": "Loslegen",
+  "close": "Tour schließen",
+  "skip": "Tour überspringen",
+  "stepCounter": "Schritt {{current}} von {{total}}",
+  "steps": {
+    "welcome": {
+      "title": "Willkommen beim Landing-Page-Builder! 👋",
+      "description": "Machen wir eine kurze Tour, damit du genau weißt, wo alles zu finden ist, bevor du loslegst."
+    },
+    "insertPanel": {
+      "title": "Hier fügst du Inhalte hinzu",
+      "description": "Das ist das Einfügen-Panel — alles, was du deiner Seite hinzufügst, beginnt hier. Schauen wir uns die drei wichtigsten Dinge an, die du einfügen kannst."
+    },
+    "addSection": {
+      "title": "Sections stapeln deine Seite",
+      "description": "Eine Section ist eine Zeile in voller Breite auf deiner Seite. Klicke auf „Section“, um eine hinzuzufügen — Seiten bestehen meist aus wenigen Sections, die von oben nach unten gestapelt sind (Hero, Features, Footer usw.)."
+    },
+    "addBlock": {
+      "title": "Blocks organisieren eine Section",
+      "description": "Ein Block befindet sich innerhalb einer Section und gruppiert Inhalte, wie eine Karte oder eine Spalte. Klicke auf „Block“, um einen an der ausgewählten Stelle hinzuzufügen."
+    },
+    "addContents": {
+      "title": "Inhalte sind das, was Besucher sehen",
+      "description": "Text, Bild und Button sind der eigentliche Inhalt, der in einen Block kommt — das ist es, was deine Besucher lesen, ansehen und anklicken."
+    },
+    "canvas": {
+      "title": "Das ist deine Arbeitsfläche",
+      "description": "Das ist deine Live-Seite. Klicke auf ein Element, um es auszuwählen, und bearbeite dann Inhalt und Stil über das Panel rechts."
+    },
+    "propertyPanel": {
+      "title": "Zum Eigenschaften-Panel wechseln",
+      "description": "Klicke auf dieses Symbol, um vom Einfügen-Panel zum Eigenschaften-Panel zu wechseln — hier gestaltest und konfigurierst du alles, was du auswählst."
+    },
+    "propertyControls": {
+      "title": "Passe deine Auswahl an",
+      "description": "Sobald etwas ausgewählt ist, erscheinen hier Farben, Abstände, Text, Rahmen und andere Einstellungen — hier feinst du das Aussehen von allem auf deiner Seite ab."
+    },
+    "pageName": {
+      "title": "Benenne deine Seite",
+      "description": "Klicke auf den Seitentitel in der oberen Leiste, um ihn umzubenennen — so findest du die Seite später in deinem Dashboard wieder."
+    },
+    "viewSwitcher": {
+      "title": "Vorschau in verschiedenen Größen",
+      "description": "Wechsle hier zwischen Desktop, Tablet und Mobil, um zu sehen, wie sich deine Seite an jede Bildschirmgröße anpasst."
+    },
+    "thumbnailCapture": {
+      "title": "Vorschaubild erfassen",
+      "description": "Öffne das Seiteneinstellungen-Panel, um das Vorschaubild für diese Seite in deinem Dashboard zu erfassen und zu aktualisieren."
+    },
+    "changeImage": {
+      "title": "Vorschaubild-Ersteller öffnen",
+      "description": "Klicke auf „Change“, um den Dialog zur Erstellung des Vorschaubilds für diese Seite zu öffnen."
+    },
+    "createThumbnail": {
+      "title": "Anzahl wählen und erstellen",
+      "description": "Wähle im Dialog aus, wie viele Bereiche in der Vorschau enthalten sein sollen, und klicke dann auf Erstellen, um ein neues Vorschaubild für deine Seite zu erfassen und zu speichern."
+    },
+    "save": {
+      "title": "Speichere deine Arbeit",
+      "description": "Änderungen werden erst veröffentlicht, wenn du speicherst. Klicke jederzeit hier (oder drücke Strg+S), um deinen Fortschritt zu speichern."
+    },
+    "preview": {
+      "title": "Vorschau deiner Seite",
+      "description": "Sieh genau, wie deine Seite für Besucher aussehen wird, bevor du sie veröffentlichst."
+    },
+    "done": {
+      "title": "Du bist startklar! 🎉",
+      "description": "Das waren die Grundlagen. Erkunde frei weiter — du kannst diese Anleitung jederzeit über die Hilfe-Schaltfläche in der oberen Leiste erneut öffnen."
+    }
+  }
+}

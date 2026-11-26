@@ -1,0 +1,48 @@
+{
+  "tooltip": {
+    "duplicate": "डुप्लिकेट करें",
+    "createTemplate": "टेम्पलेट बनाएं",
+    "delete": "डिलीट करें",
+    "selectParent": "पैरेंट चुनें",
+    "link": "लिंक",
+    "moreActions": "अन्य एक्शन"
+  },
+  "menu": {
+    "actionsLabel": "एक्शन",
+    "copy": "कॉपी करें",
+    "paste": "पेस्ट करें",
+    "duplicate": "डुप्लिकेट करें",
+    "replace": "बदलें",
+    "replaceDone": "एलिमेंट बदल दिया गया",
+    "replaceSectionMismatch": "पेज सेक्शन को केवल दूसरे सेक्शन से ही बदला जा सकता है",
+    "delete": "डिलीट करें",
+    "group": "ग्रुप बनाएं",
+    "split": "स्प्लिट करें",
+    "joinWithNext": "अगले के साथ जोड़ें",
+    "moveRow": "रो मूव करें ← →",
+    "moveColumn": "कॉलम मूव करें ↑ ↓",
+    "showGrid": "ग्रिड बैकग्राउंड दिखाएं",
+    "hideGrid": "ग्रिड बैकग्राउंड छिपाएं",
+    "selectParent": "पैरेंट चुनें",
+    "importHtml": "HTML आयात करें",
+    "exportHtml": "HTML के रूप में निर्यात करें",
+    "exportImage": "छवि के रूप में निर्यात करें",
+    "importHtmlDescription": "इस एलिमेंट की सामग्री बदलने के लिए HTML पेस्ट करें।",
+    "importHtmlSuccess": "आयातित HTML से बदल दिया गया",
+    "importHtmlFailed": "वह HTML कनवर्ट नहीं किया जा सका",
+    "importHtmlNothingConverted": "उस HTML में कुछ भी परिवर्तनीय नहीं मिला",
+    "exportHtmlSuccess": "HTML क्लिपबोर्ड पर कॉपी किया गया",
+    "exportHtmlFailed": "कैनवास पर यह एलिमेंट नहीं मिला",
+    "exportImageFailed": "इस एलिमेंट को कैप्चर नहीं किया जा सका"
+  },
+  "createTemplateModal": {
+    "title": "एक्शन की पुष्टि करें!",
+    "description": "क्या आप वाकई इसे सब-टेम्पलेट के रूप में बनाना चाहते हैं?"
+  },
+  "toast": {
+    "subTemplateCreated": "सब-टेम्पलेट {{name}} सफलतापूर्वक बन गया!"
+  },
+  "dialog": {
+    "cancel": "रद्द करें"
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test/editor/full-page-build-walkthrough.spec.ts",
+      "--project=chromium",
+      "--reporter=./qa-server/qa-reporter.mjs,json,html"
+    ],
+    "configFile": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright.config.ts",
+    "rootDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\qa-server\\qa-reporter.mjs"
+      ],
+      [
+        "json"
+      ],
+      [
+        "html"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "editor\\full-page-build-walkthrough.spec.ts",
+      "file": "editor/full-page-build-walkthrough.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Full page build walkthrough (real vhost)",
+          "file": "editor/full-page-build-walkthrough.spec.ts",
+          "line": 141,
+          "column": 6,
+          "specs": [
+            {
+              "title": "dashboard -> Build new -> insert every node type -> Save",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 23958,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Open the landing page dashboard",
+                          "duration": 5249
+                        },
+                        {
+                          "title": "Click \"+ Build new\" and land in a brand-new editor",
+                          "duration": 1906
+                        },
+                        {
+                          "title": "Insert the starting Section + Block",
+                          "duration": 764
+                        },
+                        {
+                          "title": "Insert Text",
+                          "duration": 328
+                        },
+                        {
+                          "title": "Insert Image",
+                          "duration": 310
+                        },
+                        {
+                          "title": "Insert Button",
+                          "duration": 299
+                        },
+                        {
+                          "title": "Insert Table",
+                          "duration": 938
+                        },
+                        {
+                          "title": "Insert Submit Entry Button",
+                          "duration": 315
+                        },
+                        {
+                          "title": "Insert Register Button",
+                          "duration": 321
+                        },
+                        {
+                          "title": "Insert End date",
+                          "duration": 317
+                        },
+                        {
+                          "title": "Insert End hour",
+                          "duration": 370
+                        },
+                        {
+                          "title": "Insert Time zone",
+                          "duration": 311
+                        },
+                        {
+                          "title": "Insert Icon Block",
+                          "duration": 445
+                        },
+                        {
+                          "title": "Insert Separators",
+                          "duration": 402
+                        },
+                        {
+                          "title": "Insert Tabs",
+                          "duration": 430
+                        },
+                        {
+                          "title": "Insert Accordion",
+                          "duration": 438
+                        },
+                        {
+                          "title": "Insert Testimonial Slider",
+                          "duration": 558
+                        },
+                        {
+                          "title": "Insert Countdown",
+                          "duration": 542
+                        },
+                        {
+                          "title": "Insert Counter",
+                          "duration": 538
+                        },
+                        {
+                          "title": "Insert Rating",
+                          "duration": 525
+                        },
+                        {
+                          "title": "Insert Social",
+                          "duration": 544
+                        },
+                        {
+                          "title": "Insert Google Map",
+                          "duration": 629
+                        },
+                        {
+                          "title": "Insert Youtube",
+                          "duration": 533
+                        },
+                        {
+                          "title": "Insert Vimeo",
+                          "duration": 528
+                        },
+                        {
+                          "title": "Insert Web View",
+                          "duration": 589
+                        },
+                        {
+                          "title": "Insert Chart",
+                          "duration": 623
+                        },
+                        {
+                          "title": "Insert Progress Bar",
+                          "duration": 598
+                        },
+                        {
+                          "title": "Insert Timeline",
+                          "duration": 538
+                        },
+                        {
+                          "title": "Insert FAQ",
+                          "duration": 677
+                        },
+                        {
+                          "title": "Insert Pricing Toggle",
+                          "duration": 574
+                        },
+                        {
+                          "title": "Insert Image Slider",
+                          "duration": 570
+                        },
+                        {
+                          "title": "Insert Image Carousel",
+                          "duration": 579
+                        },
+                        {
+                          "title": "Insert Image Flip Flop",
+                          "duration": 573
+                        },
+                        {
+                          "title": "Every node type landed in the Layers tree",
+                          "duration": 156
+                        },
+                        {
+                          "title": "Save the finished page",
+                          "duration": 560
+                        }
+                      ],
+                      "startTime": "2026-09-15T03:51:04.555Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9c475a795b66fecf2b6f-2477a8677e8dfceec341",
+              "file": "editor/full-page-build-walkthrough.spec.ts",
+              "line": 142,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-15T03:51:03.979Z",
+    "duration": 24909.578999999998,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "tooltip": {
+    "duplicate": "复制副本",
+    "createTemplate": "创建模板",
+    "delete": "删除",
+    "selectParent": "选择父级",
+    "link": "链接",
+    "moreActions": "更多操作"
+  },
+  "menu": {
+    "actionsLabel": "操作",
+    "copy": "复制",
+    "paste": "粘贴",
+    "duplicate": "创建副本",
+    "replace": "替换",
+    "replaceDone": "元素已替换",
+    "replaceSectionMismatch": "页面区块只能替换为另一个区块",
+    "delete": "删除",
+    "group": "编组",
+    "split": "拆分",
+    "joinWithNext": "与下一个合并",
+    "moveRow": "移动 ← →",
+    "moveColumn": "移动 ↑ ↓",
+    "showGrid": "显示网格背景",
+    "hideGrid": "隐藏网格背景",
+    "selectParent": "选择父级",
+    "importHtml": "导入 HTML",
+    "exportHtml": "导出为 HTML",
+    "exportImage": "导出为图片",
+    "importHtmlDescription": "粘贴 HTML 以替换此元素的内容。",
+    "importHtmlSuccess": "已替换为导入的 HTML",
+    "importHtmlFailed": "无法转换该 HTML",
+    "importHtmlNothingConverted": "在该 HTML 中未找到可转换的内容",
+    "exportHtmlSuccess": "HTML 已复制到剪贴板",
+    "exportHtmlFailed": "在画布上找不到此元素",
+    "exportImageFailed": "无法捕获此元素"
+  },
+  "createTemplateModal": {
+    "title": "创建操作确认！",
+    "description": "确定要将其创建为子模板吗？"
+  },
+  "toast": {
+    "subTemplateCreated": "子模板 {{name}} 创建成功！"
+  },
+  "dialog": {
+    "cancel": "取消"
+  }
+}

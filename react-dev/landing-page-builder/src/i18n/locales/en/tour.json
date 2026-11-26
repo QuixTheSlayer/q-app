@@ -1,0 +1,75 @@
+{
+  "ariaLabel": "Getting started tour",
+  "next": "Next",
+  "back": "Back",
+  "finish": "Get started",
+  "close": "Close tour",
+  "skip": "Skip tour",
+  "stepCounter": "Step {{current}} of {{total}}",
+  "steps": {
+    "welcome": {
+      "title": "Welcome to the Landing Page Builder! 👋",
+      "description": "Let's take a quick tour so you know exactly where everything is before you start building."
+    },
+    "insertPanel": {
+      "title": "Add content here",
+      "description": "This is the Insert panel — everything you add to your page starts here. Let's look at the three main things you can insert."
+    },
+    "addSection": {
+      "title": "Sections stack your page",
+      "description": "A Section is a full-width row on your page. Click \"Section\" to add one — pages are usually just a few sections stacked top to bottom (hero, features, footer, etc.)."
+    },
+    "addBlock": {
+      "title": "Blocks organize a section",
+      "description": "A Block lives inside a section and groups content together, like a card or a column. Click \"Block\" to add one wherever you've selected."
+    },
+    "addContents": {
+      "title": "Contents are what visitors see",
+      "description": "Text, Image, and Button are the actual content that goes inside a block — this is what your visitors read, look at, and click."
+    },
+    "canvas": {
+      "title": "This is your canvas",
+      "description": "This is your live page. Click any element to select it, then edit its content and style using the panel on the right."
+    },
+    "propertyPanel": {
+      "title": "Switch to the Property panel",
+      "description": "Click this icon to switch from the Insert panel to the Property panel — this is where you'll style and configure whatever you select."
+    },
+    "propertyControls": {
+      "title": "Adjust what you select",
+      "description": "Once something is selected, its colors, spacing, text, borders, and other settings show up here — this is where you fine-tune the look of anything on your page."
+    },
+    "pageName": {
+      "title": "Name your page",
+      "description": "Click the page title in the top bar to rename it — this is how you'll find it later in your dashboard."
+    },
+    "viewSwitcher": {
+      "title": "Preview at different sizes",
+      "description": "Switch between Desktop, Tablet, and Mobile here to see how your page adapts to each screen size."
+    },
+    "thumbnailCapture": {
+      "title": "Capture a thumbnail",
+      "description": "Open the Page Settings panel to capture and update the thumbnail image shown for this page in your dashboard."
+    },
+    "changeImage": {
+      "title": "Open the thumbnail creator",
+      "description": "Click \"Change\" to open the thumbnail creation dialog for this page."
+    },
+    "createThumbnail": {
+      "title": "Choose a count and create it",
+      "description": "Inside the dialog, choose how many sections to include in the preview, then click Create to capture and save a new thumbnail for your page."
+    },
+    "save": {
+      "title": "Save your work",
+      "description": "Changes aren't published until you save. Click here (or press Ctrl+S) any time to save your progress."
+    },
+    "preview": {
+      "title": "Preview your page",
+      "description": "See exactly how your page will look to visitors before you publish it."
+    },
+    "done": {
+      "title": "You're all set! 🎉",
+      "description": "That's the essentials. Explore freely — you can always reopen this guide from the help button in the top bar."
+    }
+  }
+}

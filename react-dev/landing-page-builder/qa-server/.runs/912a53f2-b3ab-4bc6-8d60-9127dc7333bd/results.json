@@ -1,0 +1,508 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test/editor/full-page-build-walkthrough.spec.ts",
+      "--project=chromium",
+      "--reporter=./qa-server/qa-reporter.mjs,json,html"
+    ],
+    "configFile": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright.config.ts",
+    "rootDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\qa-server\\qa-reporter.mjs"
+      ],
+      [
+        "json"
+      ],
+      [
+        "html"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "editor\\full-page-build-walkthrough.spec.ts",
+      "file": "editor/full-page-build-walkthrough.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Full page build walkthrough (real vhost)",
+          "file": "editor/full-page-build-walkthrough.spec.ts",
+          "line": 435,
+          "column": 6,
+          "specs": [
+            {
+              "title": "open an existing page and build a real event page section by section -> Save",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 129855,
+                      "error": {
+                        "message": "Error: Dragging \"Sponsor Bronze\" (index 2) above \"Sponsor Gold\" (index 0) did not change the on-canvas order — known flaky drag path, see comment above.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m0\u001b[39m\nReceived:   \u001b[31m2\u001b[39m",
+                        "stack": "Error: Dragging \"Sponsor Bronze\" (index 2) above \"Sponsor Gold\" (index 0) did not change the on-canvas order — known flaky drag path, see comment above.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m0\u001b[39m\nReceived:   \u001b[31m2\u001b[39m\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:568:10\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:517:5",
+                        "location": {
+                          "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                          "column": 10,
+                          "line": 568
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 566 |\u001b[39m           \u001b[32m`Dragging \"Sponsor Bronze\" (index ${bronzeIndex}) above \"Sponsor Gold\" (index ${goldIndex}) did not change the on-canvas order — known flaky drag path, see comment above.`\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 567 |\u001b[39m         )\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 568 |\u001b[39m         \u001b[33m.\u001b[39mtoBeLessThan(goldIndex)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 569 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 570 |\u001b[39m\n \u001b[90m 571 |\u001b[39m     \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'Every node type landed in the Layers tree'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                            "column": 10,
+                            "line": 568
+                          },
+                          "message": "Error: Dragging \"Sponsor Bronze\" (index 2) above \"Sponsor Gold\" (index 0) did not change the on-canvas order — known flaky drag path, see comment above.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m0\u001b[39m\nReceived:   \u001b[31m2\u001b[39m\n\n  566 |           `Dragging \"Sponsor Bronze\" (index ${bronzeIndex}) above \"Sponsor Gold\" (index ${goldIndex}) did not change the on-canvas order — known flaky drag path, see comment above.`,\n  567 |         )\n> 568 |         .toBeLessThan(goldIndex);\n      |          ^\n  569 |     });\n  570 |\n  571 |     await test.step('Every node type landed in the Layers tree', async () => {\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:568:10\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:517:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Open page 59 directly in the editor",
+                          "duration": 3175
+                        },
+                        {
+                          "title": "Add the \"Hero\" section",
+                          "duration": 1702
+                        },
+                        {
+                          "title": "Insert Text into Hero",
+                          "duration": 1386
+                        },
+                        {
+                          "title": "Insert Button into Hero",
+                          "duration": 1195
+                        },
+                        {
+                          "title": "Insert Countdown into Hero",
+                          "duration": 1006
+                        },
+                        {
+                          "title": "Add the \"Event Details\" section",
+                          "duration": 1052
+                        },
+                        {
+                          "title": "Insert Image into Event Details",
+                          "duration": 818
+                        },
+                        {
+                          "title": "Insert Icon Block into Event Details",
+                          "duration": 855
+                        },
+                        {
+                          "title": "Insert Separators into Event Details",
+                          "duration": 853
+                        },
+                        {
+                          "title": "Insert End date into Event Details",
+                          "duration": 751
+                        },
+                        {
+                          "title": "Insert End hour into Event Details",
+                          "duration": 781
+                        },
+                        {
+                          "title": "Insert Time zone into Event Details",
+                          "duration": 812
+                        },
+                        {
+                          "title": "Add the \"Schedule\" section",
+                          "duration": 890
+                        },
+                        {
+                          "title": "Insert Timeline into Schedule",
+                          "duration": 927
+                        },
+                        {
+                          "title": "Insert Table into Schedule",
+                          "duration": 1585
+                        },
+                        {
+                          "title": "Add the \"Speakers & Judges\" section",
+                          "duration": 990
+                        },
+                        {
+                          "title": "Insert Tabs into Speakers & Judges",
+                          "duration": 1081
+                        },
+                        {
+                          "title": "Insert Accordion into Speakers & Judges",
+                          "duration": 1002
+                        },
+                        {
+                          "title": "Insert Testimonial Slider into Speakers & Judges",
+                          "duration": 1131
+                        },
+                        {
+                          "title": "Insert Rating into Speakers & Judges",
+                          "duration": 1016
+                        },
+                        {
+                          "title": "Add the \"Registration & Pricing\" section",
+                          "duration": 1029
+                        },
+                        {
+                          "title": "Insert Submit Entry Button into Registration & Pricing",
+                          "duration": 995
+                        },
+                        {
+                          "title": "Insert Register Button into Registration & Pricing",
+                          "duration": 819
+                        },
+                        {
+                          "title": "Insert Pricing Toggle into Registration & Pricing",
+                          "duration": 1118
+                        },
+                        {
+                          "title": "Insert Progress Bar into Registration & Pricing",
+                          "duration": 946
+                        },
+                        {
+                          "title": "Insert Counter into Registration & Pricing",
+                          "duration": 958
+                        },
+                        {
+                          "title": "Insert Chart into Registration & Pricing",
+                          "duration": 1011
+                        },
+                        {
+                          "title": "Add the \"Media & Location\" section",
+                          "duration": 1044
+                        },
+                        {
+                          "title": "Insert Youtube into Media & Location",
+                          "duration": 1067
+                        },
+                        {
+                          "title": "Insert Vimeo into Media & Location",
+                          "duration": 1000
+                        },
+                        {
+                          "title": "Insert Google Map into Media & Location",
+                          "duration": 941
+                        },
+                        {
+                          "title": "Insert Web View into Media & Location",
+                          "duration": 1059
+                        },
+                        {
+                          "title": "Insert Image Slider into Media & Location",
+                          "duration": 966
+                        },
+                        {
+                          "title": "Insert Image Carousel into Media & Location",
+                          "duration": 983
+                        },
+                        {
+                          "title": "Insert Image Flip Flop into Media & Location",
+                          "duration": 1124
+                        },
+                        {
+                          "title": "Add the \"FAQ & Social\" section",
+                          "duration": 1079
+                        },
+                        {
+                          "title": "Insert FAQ into FAQ & Social",
+                          "duration": 1905
+                        },
+                        {
+                          "title": "Insert Social into FAQ & Social",
+                          "duration": 1821
+                        },
+                        {
+                          "title": "Give the Hero section real event copy",
+                          "duration": 12258
+                        },
+                        {
+                          "title": "Adjust and verify Text's properties",
+                          "duration": 3056
+                        },
+                        {
+                          "title": "Adjust and verify Button's properties",
+                          "duration": 2971
+                        },
+                        {
+                          "title": "Adjust and verify Countdown's properties",
+                          "duration": 3117
+                        },
+                        {
+                          "title": "Adjust and verify Image's properties",
+                          "duration": 3027
+                        },
+                        {
+                          "title": "Adjust and verify Icon Block's properties",
+                          "duration": 1898
+                        },
+                        {
+                          "title": "Adjust and verify Separators's properties",
+                          "duration": 2333
+                        },
+                        {
+                          "title": "Adjust and verify End date's properties",
+                          "duration": 3075
+                        },
+                        {
+                          "title": "Adjust and verify End hour's properties",
+                          "duration": 2657
+                        },
+                        {
+                          "title": "Adjust and verify Time zone's properties",
+                          "duration": 2343
+                        },
+                        {
+                          "title": "Adjust and verify Timeline's properties",
+                          "duration": 2091
+                        },
+                        {
+                          "title": "Adjust and verify Table's properties",
+                          "duration": 1964
+                        },
+                        {
+                          "title": "Adjust and verify Tabs's properties",
+                          "duration": 2109
+                        },
+                        {
+                          "title": "Adjust and verify Accordion's properties",
+                          "duration": 2558
+                        },
+                        {
+                          "title": "Adjust and verify Testimonial Slider's properties",
+                          "duration": 1961
+                        },
+                        {
+                          "title": "Adjust and verify Rating's properties",
+                          "duration": 1890
+                        },
+                        {
+                          "title": "Adjust and verify Submit Entry Button's properties",
+                          "duration": 2418
+                        },
+                        {
+                          "title": "Adjust and verify Register Button's properties",
+                          "duration": 2185
+                        },
+                        {
+                          "title": "Adjust and verify Pricing Toggle's properties",
+                          "duration": 2020
+                        },
+                        {
+                          "title": "Adjust and verify Progress Bar's properties",
+                          "duration": 3027
+                        },
+                        {
+                          "title": "Adjust and verify Counter's properties",
+                          "duration": 2030
+                        },
+                        {
+                          "title": "Adjust and verify Chart's properties",
+                          "duration": 2319
+                        },
+                        {
+                          "title": "Adjust and verify Youtube's properties",
+                          "duration": 1850
+                        },
+                        {
+                          "title": "Adjust and verify Vimeo's properties",
+                          "duration": 1103
+                        },
+                        {
+                          "title": "Adjust and verify Google Map's properties",
+                          "duration": 1076
+                        },
+                        {
+                          "title": "Adjust and verify Web View's properties",
+                          "duration": 1280
+                        },
+                        {
+                          "title": "Adjust and verify Image Slider's properties",
+                          "duration": 817
+                        },
+                        {
+                          "title": "Adjust and verify Image Carousel's properties",
+                          "duration": 803
+                        },
+                        {
+                          "title": "Adjust and verify Image Flip Flop's properties",
+                          "duration": 804
+                        },
+                        {
+                          "title": "Adjust and verify FAQ's properties",
+                          "duration": 1199
+                        },
+                        {
+                          "title": "Adjust and verify Social's properties",
+                          "duration": 1130
+                        },
+                        {
+                          "title": "Add a \"Sponsors\" section for the reorder check",
+                          "duration": 1195
+                        },
+                        {
+                          "title": "Insert \"Sponsor Gold\" text",
+                          "duration": 3009
+                        },
+                        {
+                          "title": "Insert \"Sponsor Silver\" text",
+                          "duration": 3613
+                        },
+                        {
+                          "title": "Insert \"Sponsor Bronze\" text",
+                          "duration": 3496
+                        },
+                        {
+                          "title": "Drag-reorder: move the last Sponsor node to the top",
+                          "duration": 592,
+                          "error": {
+                            "message": "Error: Dragging \"Sponsor Bronze\" (index 2) above \"Sponsor Gold\" (index 0) did not change the on-canvas order — known flaky drag path, see comment above.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m0\u001b[39m\nReceived:   \u001b[31m2\u001b[39m",
+                            "stack": "Error: Dragging \"Sponsor Bronze\" (index 2) above \"Sponsor Gold\" (index 0) did not change the on-canvas order — known flaky drag path, see comment above.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m0\u001b[39m\nReceived:   \u001b[31m2\u001b[39m\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:568:10\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:517:5",
+                            "location": {
+                              "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                              "column": 10,
+                              "line": 568
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 566 |\u001b[39m           \u001b[32m`Dragging \"Sponsor Bronze\" (index ${bronzeIndex}) above \"Sponsor Gold\" (index ${goldIndex}) did not change the on-canvas order — known flaky drag path, see comment above.`\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 567 |\u001b[39m         )\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 568 |\u001b[39m         \u001b[33m.\u001b[39mtoBeLessThan(goldIndex)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 569 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 570 |\u001b[39m\n \u001b[90m 571 |\u001b[39m     \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'Every node type landed in the Layers tree'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                          }
+                        },
+                        {
+                          "title": "Every node type landed in the Layers tree",
+                          "duration": 226
+                        },
+                        {
+                          "title": "Save the finished page",
+                          "duration": 706
+                        }
+                      ],
+                      "startTime": "2026-09-15T06:30:05.968Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\test-results\\editor-full-page-build-wal-c2065-e-section-by-section---Save-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                        "column": 10,
+                        "line": 568
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9c475a795b66fecf2b6f-a2063eeefc6b97faca72",
+              "file": "editor/full-page-build-walkthrough.spec.ts",
+              "line": 436,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-15T06:30:05.416Z",
+    "duration": 130717.385,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

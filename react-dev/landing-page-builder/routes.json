@@ -1,0 +1,11 @@
+{
+  "/landing-page-builder/get_data_landingPage": "/get_data_landingPage",
+  "/landing-page-builder/get_data_landingPage/:id": "/get_landingpage_data/:id",
+  "/landing-page-builder/get_landingpage_data": "/get_landingpage_data",
+  "/landing-page-builder/get_landingpage_data/:id": "/get_landingpage_data/:id",
+  "/landing-page-builder/save/:id":"/get_landingpage_data/:id",
+    "/landing-page-builder/my-components":"/my-components",
+    "/landing-page-builder/my-components/:id":"/my-components/:id",
+    "/landing-page-builder/subtemplates":"/my-components",
+    "/landing-page-builder/subtemplates/:id":"/my-components/:id"
+}

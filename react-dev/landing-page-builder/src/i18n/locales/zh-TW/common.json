@@ -1,0 +1,46 @@
+{
+  "language": {
+    "label": "語言",
+    "en": "英文"
+  },
+  "planTierSaveWarning": "注意：此頁面有 {{count}} 個元件僅限 {{tiers}} 方案使用。此頁面僅能用於 {{tiers}} 方案的活動。",
+  "planTierBanner": "此頁面包含 {{count}} 個僅限 Enterprise 方案使用的元件，僅能用於 Enterprise 方案的活動。",
+  "navbar": {
+    "backToDashboard": "返回儀表板",
+    "pageTitle": "頁面標題",
+    "untitled": "未命名",
+    "view": "檢視：",
+    "previewDesktopView": "預覽桌面版檢視",
+    "desktop": "桌面版",
+    "previewTabletView": "預覽平板版檢視",
+    "tablet": "平板版",
+    "previewMobileView": "預覽行動版檢視",
+    "mobile": "行動版",
+    "allChangesSaved": "所有變更已儲存",
+    "synced": "已同步",
+    "unsavedChangesTitle": "您有尚未儲存的變更",
+    "unsavedChanges": "未儲存的變更",
+    "savingChanges": "正在儲存變更……",
+    "syncing": "同步中",
+    "failedToSaveChanges": "儲存變更失敗",
+    "errorSyncing": "同步發生錯誤",
+    "savedToLocalStorageOnly": "僅儲存至本機儲存空間（伺服器同步失敗）",
+    "savedToLocal": "已儲存至本機",
+    "openTour": "開始導覽",
+    "toggleTheme": "切換主題",
+    "toggleThemeShortcut": "切換主題（{{keys}}）",
+    "saveShortcut": "儲存（{{keys}}）",
+    "save": "儲存",
+    "savePage": "儲存頁面",
+    "switchToPreviewShortcut": "切換至預覽模式（{{keys}}）",
+    "switchToPreview": "切換至預覽模式",
+    "switchToPreviewPage": "切換至頁面預覽",
+    "preview": "預覽",
+    "networkError": "網路錯誤！"
+  },
+  "canvas": {
+    "openInsertPanel": "開啟插入面板",
+    "openPropertyPanel": "開啟屬性面板",
+    "emptyPageMessage": "您的頁面目前是空白的，請先插入一個區塊開始編輯。"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test/editor/full-page-build-walkthrough.spec.ts",
+      "--project=chromium",
+      "--reporter=./qa-server/qa-reporter.mjs,json,html"
+    ],
+    "configFile": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright.config.ts",
+    "rootDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\qa-server\\qa-reporter.mjs"
+      ],
+      [
+        "json"
+      ],
+      [
+        "html"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "editor\\full-page-build-walkthrough.spec.ts",
+      "file": "editor/full-page-build-walkthrough.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Full page build walkthrough (real vhost)",
+          "file": "editor/full-page-build-walkthrough.spec.ts",
+          "line": 141,
+          "column": 6,
+          "specs": [
+            {
+              "title": "dashboard -> Build new -> insert every node type -> Save",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 26390,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'Back to dashboard' })\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByRole('link', { name: 'Back to dashboard' }) with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('link', { name: 'Back to dashboard' })\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'Back to dashboard' })\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByRole('link', { name: 'Back to dashboard' }) with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('link', { name: 'Back to dashboard' })\u001b[22m\n\n    at waitForEditorReady (C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:100:71)\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:159:13\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:154:24",
+                        "location": {
+                          "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                          "column": 71,
+                          "line": 100
+                        },
+                        "snippet": "\u001b[0m \u001b[90m  98 |\u001b[39m \u001b[90m/** Waits for a freshly-opened editor tab (already navigated by the app itself) to finish booting. */\u001b[39m\n \u001b[90m  99 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m waitForEditorReady(page\u001b[33m:\u001b[39m \u001b[33mPage\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 100 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Back to dashboard'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m20000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 101 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'tab'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Insert'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 102 |\u001b[39m   \u001b[36mawait\u001b[39m openLayersTab(page)\u001b[33m;\u001b[39m\n \u001b[90m 103 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'treeitem'\u001b[39m)\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m20000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                            "column": 71,
+                            "line": 100
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'Back to dashboard' })\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByRole('link', { name: 'Back to dashboard' }) with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('link', { name: 'Back to dashboard' })\u001b[22m\n\n\n   98 | /** Waits for a freshly-opened editor tab (already navigated by the app itself) to finish booting. */\n   99 | async function waitForEditorReady(page: Page) {\n> 100 |   await expect(page.getByRole('link', { name: 'Back to dashboard' })).toBeVisible({ timeout: 20000 });\n      |                                                                       ^\n  101 |   await expect(page.getByRole('tab', { name: 'Insert' })).toBeVisible();\n  102 |   await openLayersTab(page);\n  103 |   await expect(page.getByRole('treeitem').first()).toBeVisible({ timeout: 20000 });\n    at waitForEditorReady (C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:100:71)\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:159:13\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:154:24"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Open the landing page dashboard",
+                          "duration": 5681
+                        },
+                        {
+                          "title": "Click \"+ Build new\" and land in a brand-new editor",
+                          "duration": 20449,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'Back to dashboard' })\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByRole('link', { name: 'Back to dashboard' }) with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('link', { name: 'Back to dashboard' })\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'Back to dashboard' })\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByRole('link', { name: 'Back to dashboard' }) with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('link', { name: 'Back to dashboard' })\u001b[22m\n\n    at waitForEditorReady (C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:100:71)\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:159:13\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:154:24",
+                            "location": {
+                              "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                              "column": 71,
+                              "line": 100
+                            },
+                            "snippet": "\u001b[0m \u001b[90m  98 |\u001b[39m \u001b[90m/** Waits for a freshly-opened editor tab (already navigated by the app itself) to finish booting. */\u001b[39m\n \u001b[90m  99 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m waitForEditorReady(page\u001b[33m:\u001b[39m \u001b[33mPage\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 100 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Back to dashboard'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m20000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 101 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'tab'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Insert'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 102 |\u001b[39m   \u001b[36mawait\u001b[39m openLayersTab(page)\u001b[33m;\u001b[39m\n \u001b[90m 103 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'treeitem'\u001b[39m)\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m20000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                          }
+                        }
+                      ],
+                      "startTime": "2026-09-15T03:32:39.480Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\test-results\\editor-full-page-build-wal-c0ba3-sert-every-node-type---Save-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                        "column": 71,
+                        "line": 100
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9c475a795b66fecf2b6f-2477a8677e8dfceec341",
+              "file": "editor/full-page-build-walkthrough.spec.ts",
+              "line": 142,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-15T03:32:38.935Z",
+    "duration": 27211.845999999998,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

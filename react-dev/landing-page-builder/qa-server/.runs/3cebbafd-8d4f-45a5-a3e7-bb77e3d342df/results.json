@@ -1,0 +1,208 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test/editor/full-page-build-walkthrough.spec.ts",
+      "--project=firefox",
+      "--reporter=./qa-server/qa-reporter.mjs,json,html"
+    ],
+    "configFile": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright.config.ts",
+    "rootDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\qa-server\\qa-reporter.mjs"
+      ],
+      [
+        "json"
+      ],
+      [
+        "html"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "editor\\full-page-build-walkthrough.spec.ts",
+      "file": "editor/full-page-build-walkthrough.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Full page build walkthrough (real vhost)",
+          "file": "editor/full-page-build-walkthrough.spec.ts",
+          "line": 435,
+          "column": 6,
+          "specs": [
+            {
+              "title": "open an existing page and build a real event page section by section -> Save",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5046,
+                      "error": {
+                        "message": "Error: page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n\u001b[2m  - navigating to \"http://local.newjudgify.me/landing-page-builder/editor/59\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n\u001b[2m  - navigating to \"http://local.newjudgify.me/landing-page-builder/editor/59\", waiting until \"load\"\u001b[22m\n\n    at gotoEditor (C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:149:14)\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:450:13\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:449:5",
+                        "location": {
+                          "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                          "column": 14,
+                          "line": 149
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 147 |\u001b[39m \u001b[90m/** Navigates straight to an existing page's editor and waits for it to finish booting. */\u001b[39m\n \u001b[90m 148 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m gotoEditor(page\u001b[33m:\u001b[39m \u001b[33mPage\u001b[39m\u001b[33m,\u001b[39m pageId\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 149 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m`${VHOST_ORIGIN}/landing-page-builder/editor/${pageId}`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 150 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Back to dashboard'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m20000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 151 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'tab'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Insert'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m   \u001b[36mawait\u001b[39m openLayersTab(page)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                            "column": 14,
+                            "line": 149
+                          },
+                          "message": "Error: page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n\u001b[2m  - navigating to \"http://local.newjudgify.me/landing-page-builder/editor/59\", waiting until \"load\"\u001b[22m\n\n\n  147 | /** Navigates straight to an existing page's editor and waits for it to finish booting. */\n  148 | async function gotoEditor(page: Page, pageId: string) {\n> 149 |   await page.goto(`${VHOST_ORIGIN}/landing-page-builder/editor/${pageId}`);\n      |              ^\n  150 |   await expect(page.getByRole('link', { name: 'Back to dashboard' })).toBeVisible({ timeout: 20000 });\n  151 |   await expect(page.getByRole('tab', { name: 'Insert' })).toBeVisible();\n  152 |   await openLayersTab(page);\n    at gotoEditor (C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:149:14)\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:450:13\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:449:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Open page 59 directly in the editor",
+                          "duration": 2072,
+                          "error": {
+                            "message": "Error: page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n\u001b[2m  - navigating to \"http://local.newjudgify.me/landing-page-builder/editor/59\", waiting until \"load\"\u001b[22m\n",
+                            "stack": "Error: page.goto: NS_ERROR_PROXY_CONNECTION_REFUSED\nCall log:\n\u001b[2m  - navigating to \"http://local.newjudgify.me/landing-page-builder/editor/59\", waiting until \"load\"\u001b[22m\n\n    at gotoEditor (C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:149:14)\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:450:13\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:449:5",
+                            "location": {
+                              "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                              "column": 14,
+                              "line": 149
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 147 |\u001b[39m \u001b[90m/** Navigates straight to an existing page's editor and waits for it to finish booting. */\u001b[39m\n \u001b[90m 148 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m gotoEditor(page\u001b[33m:\u001b[39m \u001b[33mPage\u001b[39m\u001b[33m,\u001b[39m pageId\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 149 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m`${VHOST_ORIGIN}/landing-page-builder/editor/${pageId}`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 150 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Back to dashboard'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m20000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 151 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'tab'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Insert'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m   \u001b[36mawait\u001b[39m openLayersTab(page)\u001b[33m;\u001b[39m\u001b[0m"
+                          }
+                        }
+                      ],
+                      "startTime": "2026-09-15T06:51:56.398Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\test-results\\editor-full-page-build-wal-c2065-e-section-by-section---Save-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                        "column": 14,
+                        "line": 149
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9c475a795b66fecf2b6f-110c8aca065495d09179",
+              "file": "editor/full-page-build-walkthrough.spec.ts",
+              "line": 436,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-15T06:51:55.867Z",
+    "duration": 6787.267,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

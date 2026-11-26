@@ -1,0 +1,75 @@
+{
+  "ariaLabel": "Recorrido de introducción",
+  "next": "Siguiente",
+  "back": "Atrás",
+  "finish": "Empezar",
+  "close": "Cerrar recorrido",
+  "skip": "Omitir recorrido",
+  "stepCounter": "Paso {{current}} de {{total}}",
+  "steps": {
+    "welcome": {
+      "title": "¡Bienvenido al Landing Page Builder! 👋",
+      "description": "Hagamos un recorrido rápido para que sepas exactamente dónde está todo antes de empezar a crear."
+    },
+    "insertPanel": {
+      "title": "Agrega contenido aquí",
+      "description": "Este es el panel Insertar — todo lo que agregas a tu página empieza aquí. Veamos las tres cosas principales que puedes insertar."
+    },
+    "addSection": {
+      "title": "Las secciones estructuran tu página",
+      "description": "Una Section es una fila de ancho completo en tu página. Haz clic en \"Section\" para agregar una — las páginas suelen ser solo unas pocas secciones apiladas de arriba hacia abajo (hero, características, pie de página, etc.)."
+    },
+    "addBlock": {
+      "title": "Los bloques organizan una sección",
+      "description": "Un Block vive dentro de una sección y agrupa contenido, como una tarjeta o una columna. Haz clic en \"Block\" para agregar uno donde hayas seleccionado."
+    },
+    "addContents": {
+      "title": "El contenido es lo que ven los visitantes",
+      "description": "Texto, imagen y botón son el contenido real que va dentro de un bloque — esto es lo que tus visitantes leen, miran y en lo que hacen clic."
+    },
+    "canvas": {
+      "title": "Este es tu lienzo",
+      "description": "Esta es tu página en vivo. Haz clic en cualquier elemento para seleccionarlo, luego edita su contenido y estilo con el panel de la derecha."
+    },
+    "propertyPanel": {
+      "title": "Cambia al panel de Propiedades",
+      "description": "Haz clic en este icono para pasar del panel Insertar al panel de Propiedades — aquí es donde vas a estilizar y configurar lo que selecciones."
+    },
+    "propertyControls": {
+      "title": "Ajusta lo que selecciones",
+      "description": "Una vez que seleccionas algo, aquí aparecen sus colores, espaciado, texto, bordes y otras configuraciones — aquí es donde afinas la apariencia de cualquier cosa en tu página."
+    },
+    "pageName": {
+      "title": "Nombra tu página",
+      "description": "Haz clic en el título de la página en la barra superior para renombrarla — así la encontrarás luego en tu panel."
+    },
+    "viewSwitcher": {
+      "title": "Vista previa en distintos tamaños",
+      "description": "Cambia aquí entre Escritorio, Tableta y Móvil para ver cómo se adapta tu página a cada tamaño de pantalla."
+    },
+    "thumbnailCapture": {
+      "title": "Captura una miniatura",
+      "description": "Abre el panel de Configuración de página para capturar y actualizar la imagen en miniatura que se muestra para esta página en tu panel."
+    },
+    "changeImage": {
+      "title": "Abre el creador de miniaturas",
+      "description": "Haz clic en «Change» para abrir el diálogo de creación de miniaturas de esta página."
+    },
+    "createThumbnail": {
+      "title": "Elige una cantidad y créala",
+      "description": "Dentro del diálogo, elige cuántas secciones incluir en la vista previa y luego haz clic en Crear para capturar y guardar una nueva miniatura para tu página."
+    },
+    "save": {
+      "title": "Guarda tu trabajo",
+      "description": "Los cambios no se publican hasta que los guardas. Haz clic aquí (o presiona Ctrl+S) en cualquier momento para guardar tu progreso."
+    },
+    "preview": {
+      "title": "Vista previa de tu página",
+      "description": "Mira exactamente cómo se verá tu página para los visitantes antes de publicarla."
+    },
+    "done": {
+      "title": "¡Ya estás listo! 🎉",
+      "description": "Eso es lo esencial. Explora libremente — siempre puedes volver a abrir esta guía desde el botón de ayuda en la barra superior."
+    }
+  }
+}

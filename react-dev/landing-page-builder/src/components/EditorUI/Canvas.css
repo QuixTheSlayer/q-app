@@ -1,0 +1,30 @@
+.has-drop-indicator {
+  position: relative;
+}
+
+.has-drop-indicator::after {
+  content: "";
+  position: absolute;
+  background-color: blue;
+  z-index: 10;
+  transition: all 0.1s ease;
+}
+
+.has-drop-indicator[data-layout="row"]::after {
+  width: 100%;
+  height: 2px;
+  left: 0;
+  top: var(--indicator-top, 50%);
+}
+
+.has-drop-indicator[data-layout="column"]::after {
+  width: 2px;
+  height: 100%;
+  top: 0;
+  left: var(--indicator-left, 50%);
+}
+
+
+.konvajs-content {
+  cursor: grab !important ;
+}

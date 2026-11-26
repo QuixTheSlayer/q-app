@@ -1,0 +1,46 @@
+{
+  "language": {
+    "label": "भाषा",
+    "en": "अंग्रेज़ी"
+  },
+  "planTierSaveWarning": "इस पेज में {{tiers}} प्लान की ज़रूरत वाले {{count}} एलिमेंट इस्तेमाल किए गए हैं। यह फिर भी सेव हो जाएगा, लेकिन यह टेम्पलेट {{tiers}} के अलावा किसी और प्लान वाले इवेंट में इस्तेमाल नहीं किया जा सकेगा।",
+  "planTierBanner": "इस पेज में एंटरप्राइज़ प्लान के {{count}} एलिमेंट शामिल हैं। यह टेम्पलेट केवल एंटरप्राइज़ प्लान वाले इवेंट में ही इस्तेमाल किया जा सकेगा।",
+  "navbar": {
+    "backToDashboard": "डैशबोर्ड पर वापस जाएं",
+    "pageTitle": "पेज टाइटल",
+    "untitled": "बिना शीर्षक",
+    "view": "व्यू :",
+    "previewDesktopView": "डेस्कटॉप व्यू प्रीव्यू करें",
+    "desktop": "डेस्कटॉप",
+    "previewTabletView": "टैबलेट व्यू प्रीव्यू करें",
+    "tablet": "टैबलेट",
+    "previewMobileView": "मोबाइल व्यू प्रीव्यू करें",
+    "mobile": "मोबाइल",
+    "allChangesSaved": "सभी बदलाव सेव हो गए",
+    "synced": "सिंक हो गया",
+    "unsavedChangesTitle": "आपके पास बिना सेव किए बदलाव हैं",
+    "unsavedChanges": "बिना सेव किए बदलाव",
+    "savingChanges": "बदलाव सेव हो रहे हैं…",
+    "syncing": "सिंक हो रहा है",
+    "failedToSaveChanges": "बदलाव सेव करने में विफल",
+    "errorSyncing": "सिंक करने में त्रुटि",
+    "savedToLocalStorageOnly": "केवल लोकल स्टोरेज में सेव हुआ (सर्वर सिंक विफल)",
+    "savedToLocal": "लोकल में सेव हुआ",
+    "openTour": "टूर लें",
+    "toggleTheme": "थीम टॉगल करें",
+    "toggleThemeShortcut": "थीम टॉगल करें ({{keys}})",
+    "saveShortcut": "सेव करें ({{keys}})",
+    "save": "सेव करें",
+    "savePage": "पेज सेव करें",
+    "switchToPreviewShortcut": "प्रीव्यू पर स्विच करें ({{keys}})",
+    "switchToPreview": "प्रीव्यू पर स्विच करें",
+    "switchToPreviewPage": "प्रीव्यू पेज पर स्विच करें",
+    "preview": "प्रीव्यू",
+    "networkError": "नेटवर्क त्रुटि!"
+  },
+  "canvas": {
+    "openInsertPanel": "इंसर्ट पैनल खोलें",
+    "openPropertyPanel": "प्रॉपर्टी पैनल खोलें",
+    "emptyPageMessage": "आपका पेज खाली है। शुरू करने के लिए एक सेक्शन इंसर्ट करें।"
+  }
+}

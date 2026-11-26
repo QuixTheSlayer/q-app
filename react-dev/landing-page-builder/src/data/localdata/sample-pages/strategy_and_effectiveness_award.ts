@@ -1,0 +1,920 @@
+import {PageFile} from "@/types/contentFile.type";
+
+
+export const sample_page_2: PageFile = {
+  "id": "2",
+  "title": "Strategy And Effectiveness Award",
+  "content": {
+    "id": "root",
+    "type": "container",
+    "contentType": "root",
+    "layout": "row",
+    "style": {
+      "width": "75em"
+    },
+    "children": [
+      {
+        "id": "c1f8d07e-f674-4156-9ac1-1fc16e3a640b",
+        "type": "container",
+        "contentType": "section",
+        "layout": "column",
+        "style": {
+          "position": "relative",
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(0, 1fr))",
+          "gridAutoFlow": "column",
+          "gap": "0.5em",
+          "minHeight": "0em",
+          "padding": "1.3333333333333333em",
+          "height": "5em",
+          "width": "",
+          "alignItems": "center"
+        },
+        "children": [
+          {
+            "id": "f073ceee-c0c0-4f48-9b87-a3ec90e74630",
+            "type": "content",
+            "contentType": "text",
+            "style": {
+              "fontSize": "1.25em",
+              "height": "fit-content"
+            },
+            "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":null,\"level\":1},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"1.2em\"}},{\"type\":\"bold\"}],\"text\":\"Strategy and Effectiveness Awards\"}]}]}"
+          }
+        ]
+      },
+      {
+        "id": "9a4b17fd-f05c-447e-8fa2-efa60e998eab",
+        "type": "container",
+        "contentType": "section",
+        "layout": "column",
+        "style": {
+          "position": "relative",
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(0, 1fr))",
+          "gridAutoFlow": "column",
+          "gap": "0.5em",
+          "minHeight": "28em",
+          "padding": "0em",
+          "height": "",
+          "width": ""
+        },
+        "children": [
+          {
+            "id": "72fcdfc9-bede-40c4-bd8d-d8735d951388",
+            "type": "content",
+            "contentType": "image",
+            "style": {
+              "display": "grid",
+              "height": "100%",
+              "width": "100%",
+              "minWidth": "2rem",
+              "minHeight": "2rem"
+            },
+            "children": "https://s3.ap-southeast-1.amazonaws.com/dev-landingpage.judgify.me/userId/1/Screenshot_20-3-2025_134557_demo-pages.judgify.me copy.png",
+            "attributes": {
+              "src": "@/assets/test-img.png",
+              "alt": "image"
+            }
+          }
+        ]
+      },
+      {
+        "id": "373e2125-d806-424f-bbe8-4147148d84c1",
+        "type": "container",
+        "contentType": "section",
+        "layout": "row",
+        "style": {
+          "position": "relative",
+          "display": "grid",
+          "gridTemplateColumns": "1fr",
+          "gridAutoFlow": "row",
+          "gap": "0.5em",
+          "minHeight": "0em",
+          "padding": "0em",
+          "height": "fit-content",
+          "width": ""
+        },
+        "children": [
+          {
+            "id": "948a97d5-c1c3-45e7-afc7-23745b938d6b",
+            "type": "container",
+            "contentType": "block",
+            "layout": "column",
+            "style": {
+              "position": "relative",
+              "display": "grid",
+              "gridTemplateColumns": "repeat(auto-fit, minmax(0, 1fr))",
+              "gridAutoFlow": "column",
+              "gap": "0.5em",
+              "padding": "0.6666666666666666em",
+              "height": "fit-content",
+              "width": "100%",
+              "alignItems": "stretch"
+            },
+            "children": [
+              {
+                "id": "063c3d22-984d-4056-9a7c-90b8c4e652be",
+                "type": "container",
+                "contentType": "block",
+                "layout": "column",
+                "style": {
+                  "position": "relative",
+                  "display": "grid",
+                  "gridTemplateColumns": "repeat(auto-fit, minmax(0, 1fr))",
+                  "gridAutoFlow": "column",
+                  "gap": "0.5em",
+                  "padding": "1em",
+                  "height": "100%",
+                  "width": "100%"
+                },
+                "children": [
+                  {
+                    "id": "b54735bd-2a81-4060-9eda-e7daaa10c503",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"Key Dates\"}]}]}"
+                  },
+                  {
+                    "id": "32387fb3-bd32-4c27-bee9-65306387d49c",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"Award Types\"}]}]}"
+                  },
+                  {
+                    "id": "9e7efe21-34db-4479-a600-4f8faec08537",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"\",\"fontFamily\":\"\",\"fontSize\":\"1em\"}}],\"text\":\"Entry Kit\"}]}]}"
+                  },
+                  {
+                    "id": "1b325a16-c6bb-4dbb-9ff7-98b51e6b12eb",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"Written Entry Documentry \"}]}]}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "62a83447-17ee-40c6-8376-aeb21bf0610e",
+            "type": "container",
+            "contentType": "block",
+            "layout": "row",
+            "style": {
+              "position": "relative",
+              "display": "grid",
+              "gridTemplateColumns": "1fr",
+              "gridAutoFlow": "row",
+              "gap": "0.5em",
+              "padding": "2em",
+              "height": "100%",
+              "width": "100%",
+              "backgroundColor": "#469ed4"
+            },
+            "children": [
+              {
+                "id": "7541d56a-411d-4623-8a02-9b013ab5f6da",
+                "type": "content",
+                "contentType": "text",
+                "style": {
+                  "fontSize": "1.25em",
+                  "height": "fit-content"
+                },
+                "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"center\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"#ffffff\",\"fontFamily\":null,\"fontSize\":null}},{\"type\":\"bold\"}],\"text\":\"Showcase the results achieved. Honor your Strategists & Planners. Celebrate your achievements. \"}]}]}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8a1ed09d-75af-400e-b594-614ab7b1369f",
+        "type": "container",
+        "contentType": "section",
+        "layout": "column",
+        "style": {
+          "position": "relative",
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(0, 1fr))",
+          "gridAutoFlow": "column",
+          "gap": "0.5em",
+          "minHeight": "28em",
+          "padding": "0.6666666666666666em",
+          "height": "",
+          "width": ""
+        },
+        "children": [
+          {
+            "id": "3b3dfc13-ce7d-43bb-ab7a-f2ffb35ddeb1",
+            "type": "container",
+            "contentType": "block",
+            "layout": "row",
+            "style": {
+              "position": "relative",
+              "display": "grid",
+              "gridTemplateColumns": "1fr",
+              "gridAutoFlow": "row",
+              "gap": "0.5em",
+              "padding": "1em",
+              "height": "100%",
+              "width": "37.238095238095234em"
+            },
+            "children": [
+              {
+                "id": "b7d83ce9-ac70-4787-b6bf-0eabb0f903e5",
+                "type": "content",
+                "contentType": "text",
+                "style": {
+                  "fontSize": "1.25em",
+                  "height": "fit-content"
+                },
+                "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":null,\"level\":1},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"1.2em\"}},{\"type\":\"bold\"}],\"text\":\"Celebrate your Achievements\"}]}]}"
+              },
+              {
+                "id": "ecbfe254-5de4-45dc-b12b-db44740d123d",
+                "type": "content",
+                "contentType": "text",
+                "style": {
+                  "fontSize": "1.25em",
+                  "height": "fit-content"
+                },
+                "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"1em\"}}],\"text\":\"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam animi voluptatibus et ipsum cumque sequi obcaecati quo rem sed voluptatem aliquid repudiandae dolore officis\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"1em\"}}],\"text\":\"moue ratone, cuos monstide. miss, nemo? Lorem losam coror si ames conseciet adipisicing elit. Ab aliquam, fugiat unde facilis, quidem minima sunt deleniti magnam quas dolorum quam. Vero sunt voluptas molestiae commodi maiores neque repellendus perferendis.\"}]}]}"
+              }
+            ]
+          },
+          {
+            "id": "2decea25-9aed-48a9-8c29-39c2afb9a10b",
+            "type": "container",
+            "contentType": "block",
+            "layout": "row",
+            "style": {
+              "position": "relative",
+              "display": "grid",
+              "gridTemplateColumns": "1fr",
+              "gridAutoFlow": "row",
+              "gap": "0.5em",
+              "padding": "2em",
+              "height": "100%",
+              "width": "100%"
+            },
+            "children": [
+              {
+                "id": "0ccca72a-4295-4741-9fdb-3f35adc18c06",
+                "type": "content",
+                "contentType": "image",
+                "style": {
+                  "display": "grid",
+                  "height": "100%",
+                  "width": "100%",
+                  "minWidth": "2rem",
+                  "minHeight": "2rem"
+                },
+                "children": "https://s3.ap-southeast-1.amazonaws.com/dev-landingpage.judgify.me/userId/1/Screenshot_20-3-2025_134557_demo-pages.judgify.me copy 2.png",
+                "attributes": {
+                  "src": "@/assets/test-img.png",
+                  "alt": "image"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "608c92e4-654a-42c2-8d7c-e9d74b25e3e1",
+        "type": "container",
+        "contentType": "section",
+        "layout": "row",
+        "style": {
+          "position": "relative",
+          "display": "grid",
+          "gridTemplateColumns": "1fr",
+          "gridAutoFlow": "row",
+          "gap": "0.5em",
+          "minHeight": "0em",
+          "padding": "1.25em",
+          "height": "fit-content",
+          "width": "",
+          "backgroundColor": "#f0f4f5"
+        },
+        "children": [
+          {
+            "id": "bda30d7e-9a3c-4967-807d-cf8a1f2179ab",
+            "type": "content",
+            "contentType": "text",
+            "style": {
+              "fontSize": "1.25em",
+              "height": "fit-content"
+            },
+            "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":\"center\",\"level\":2},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"1.2em\"}}],\"text\":\"Is your work eligible?\"}]}]}"
+          },
+          {
+            "id": "ae562f32-d9cc-4f41-8186-f30ac3816cbb",
+            "type": "container",
+            "contentType": "block",
+            "layout": "row",
+            "style": {
+              "position": "relative",
+              "display": "grid",
+              "gridTemplateColumns": "1fr",
+              "gridAutoFlow": "row",
+              "gap": "1.3333333333333333em",
+              "padding": "1em",
+              "height": "100%",
+              "width": "100%"
+            },
+            "children": [
+              {
+                "id": "7f542344-70ee-44c5-89e8-27d663ebe84e",
+                "type": "content",
+                "contentType": "text",
+                "style": {
+                  "fontSize": "1.25em",
+                  "height": "fit-content"
+                },
+                "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"0.9333333333333333em\"}}],\"text\":\"The entry has been aired, launched or been released to the public for the first time between 1 March 2019 to 31 January\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"0.9333333333333333em\"}}],\"text\":\"2021. (If only part of the campaign falls into this window, refer to Entry Kit 3. The Rules)\"}]}]}"
+              },
+              {
+                "id": "4691778b-0cd0-4cf8-af2b-96b7edff406d",
+                "type": "content",
+                "contentType": "text",
+                "style": {
+                  "fontSize": "1.25em",
+                  "height": "fit-content"
+                },
+                "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"0.9333333333333333em\"}}],\"text\":\"The entry has been aired, launched or been released to the public for the first time between 1 March 2019 to 31 January\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"0.9333333333333333em\"}}],\"text\":\"2021. (if only part of the campaign falls into this window, refer to Entry Kit 3. The Rules)\"}]}]}"
+              },
+              {
+                "id": "2367422b-f3f5-40b8-9e3d-eb252f268173",
+                "type": "content",
+                "contentType": "text",
+                "style": {
+                  "fontSize": "1.25em",
+                  "height": "fit-content"
+                },
+                "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"0.9333333333333333em\"}}],\"text\":\"Please note this guide is only a short summary. Read the full entry Rules HERE.\"}]}]}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3f427ba4-c179-490c-9a48-60a72443eb3a",
+        "type": "container",
+        "contentType": "section",
+        "layout": "row",
+        "style": {
+          "position": "relative",
+          "display": "grid",
+          "gridTemplateColumns": "1fr",
+          "gridAutoFlow": "row",
+          "gap": "0.5em",
+          "minHeight": "0em",
+          "padding": "1.3333333333333333em",
+          "height": "",
+          "width": ""
+        },
+        "children": [
+          {
+            "id": "803cc62a-5ca2-4883-9583-a4a9414a9c49",
+            "type": "content",
+            "contentType": "text",
+            "style": {
+              "fontSize": "1.25em",
+              "height": "fit-content"
+            },
+            "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":\"center\",\"level\":2},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"\",\"fontFamily\":\"\",\"fontSize\":\"1.2em\"}}],\"text\":\"Award Types\"}]}]}"
+          },
+          {
+            "id": "c5f577c3-2b08-4abf-bc94-3657385ff33b",
+            "type": "container",
+            "contentType": "block",
+            "layout": "row",
+            "style": {
+              "position": "relative",
+              "display": "grid",
+              "gridTemplateColumns": "1fr",
+              "gridAutoFlow": "row",
+              "gap": "0.5em",
+              "padding": "1em",
+              "height": "100%",
+              "width": "100%"
+            },
+            "children": [
+              {
+                "id": "b4b5da6e-97cb-46ac-8590-83d69327184d",
+                "type": "content",
+                "contentType": "text",
+                "style": {
+                  "fontSize": "1.25em",
+                  "height": "fit-content"
+                },
+                "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"1em\"}}],\"text\":\"Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quaerat perspiciatis. Ex laboriosam minima sed voluptatum.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"1em\"}}],\"text\":\"Laborum corrupti architecto animi, odio vitae omnis presentium aspernatur beatae quam. Harum quia omnis laudantium perspiciatis blanditiis, eveniet eligendi ratione nobis, voluptatem quod eius.\"}]}]}"
+              }
+            ]
+          },
+          {
+            "id": "b8a2e89d-451b-4675-a544-43ef371f34c0",
+            "type": "container",
+            "contentType": "block",
+            "layout": "column",
+            "style": {
+              "position": "relative",
+              "display": "grid",
+              "gridTemplateColumns": "repeat(auto-fit, minmax(0, 1fr))",
+              "gridAutoFlow": "column",
+              "gap": "0.5em",
+              "padding": "1em",
+              "height": "100%",
+              "width": "100%"
+            },
+            "children": [
+              {
+                "id": "64abbb33-c090-4552-848b-f732b03cb041",
+                "type": "container",
+                "contentType": "block",
+                "layout": "row",
+                "style": {
+                  "position": "relative",
+                  "display": "grid",
+                  "gridTemplateColumns": "1fr",
+                  "gridAutoFlow": "row",
+                  "gap": "0.5em",
+                  "padding": "1em",
+                  "height": "100%",
+                  "width": "100%",
+                  "alignContent": "center",
+                  "justifyItems": "center"
+                },
+                "children": [
+                  {
+                    "id": "f854b8df-6167-4ffc-9067-a2621d8a5566",
+                    "type": "content",
+                    "contentType": "image",
+                    "style": {
+                      "display": "grid",
+                      "height": "100%",
+                      "width": "100%",
+                      "minWidth": "2rem",
+                      "minHeight": "2rem"
+                    },
+                    "children": "",
+                    "attributes": {
+                      "src": "@/assets/test-img.png",
+                      "alt": "image"
+                    }
+                  },
+                  {
+                    "id": "82ba1b93-bb97-4d51-9c1f-83e8dca8e5e6",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"1.1333333333333333em\"}}],\"text\":\"Lorem, ipsum dolor\"}]}]}"
+                  },
+                  {
+                    "id": "a0838455-f109-4251-a15c-9c54f9869ec5",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"center\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"#505050\",\"fontFamily\":null,\"fontSize\":\"0.9333333333333333em\"}}],\"text\":\"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam aperiam veniam inventore voluptates autem culpa aliquid fugit necessitatibus? Nihil a saepe similique harum voluptas, culpa quos odit voluptate dignissimos placeat.\"}]}]}"
+                  }
+                ]
+              },
+              {
+                "id": "fe8cff82-8391-4eb0-9b67-f8a6e13569a4",
+                "type": "container",
+                "contentType": "block",
+                "layout": "row",
+                "style": {
+                  "position": "relative",
+                  "display": "grid",
+                  "gridTemplateColumns": "1fr",
+                  "gridAutoFlow": "row",
+                  "gap": "0.5em",
+                  "padding": "1em",
+                  "height": "100%",
+                  "width": "100%",
+                  "alignContent": "center",
+                  "justifyItems": "center"
+                },
+                "children": [
+                  {
+                    "id": "eba8169c-0968-4332-9543-8be865e8738b",
+                    "type": "content",
+                    "contentType": "image",
+                    "style": {
+                      "display": "grid",
+                      "height": "100%",
+                      "width": "100%",
+                      "minWidth": "2rem",
+                      "minHeight": "2rem"
+                    },
+                    "children": "",
+                    "attributes": {
+                      "src": "@/assets/test-img.png",
+                      "alt": "image"
+                    }
+                  },
+                  {
+                    "id": "3d1d4ee3-84c8-4589-a589-86cdb1590ecc",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"1.1333333333333333em\"}}],\"text\":\"Lorem, ipsum dolor\"}]}]}"
+                  },
+                  {
+                    "id": "5a270d5f-c163-4377-a133-a27e5dd74da9",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"center\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"#505050\",\"fontFamily\":null,\"fontSize\":\"0.9333333333333333em\"}}],\"text\":\"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam aperiam veniam inventore voluptates autem culpa aliquid fugit necessitatibus? Nihil a saepe similique harum voluptas, culpa quos odit voluptate dignissimos placeat.\"}]}]}"
+                  }
+                ]
+              },
+              {
+                "id": "55d98877-8e24-4533-9d4c-79aafcfd98de",
+                "type": "container",
+                "contentType": "block",
+                "layout": "row",
+                "style": {
+                  "position": "relative",
+                  "display": "grid",
+                  "gridTemplateColumns": "1fr",
+                  "gridAutoFlow": "row",
+                  "gap": "0.5em",
+                  "padding": "1em",
+                  "height": "100%",
+                  "width": "100%",
+                  "alignContent": "center",
+                  "justifyItems": "center"
+                },
+                "children": [
+                  {
+                    "id": "9d39be4b-401f-4378-9df4-259dbb0ccd18",
+                    "type": "content",
+                    "contentType": "image",
+                    "style": {
+                      "display": "grid",
+                      "height": "100%",
+                      "width": "100%",
+                      "minWidth": "2rem",
+                      "minHeight": "2rem"
+                    },
+                    "children": "",
+                    "attributes": {
+                      "src": "@/assets/test-img.png",
+                      "alt": "image"
+                    }
+                  },
+                  {
+                    "id": "a5b6e9f1-6271-40b7-9f86-f9e94adda537",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"1.1333333333333333em\"}}],\"text\":\"Lorem, ipsum dolor\"}]}]}"
+                  },
+                  {
+                    "id": "63fe2385-f468-4fad-9f47-8a89f8a3ef52",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"center\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"#505050\",\"fontFamily\":null,\"fontSize\":\"0.9333333333333333em\"}}],\"text\":\"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam aperiam veniam inventore voluptates autem culpa aliquid fugit necessitatibus? Nihil a saepe similique harum voluptas, culpa quos odit voluptate dignissimos placeat.\"}]}]}"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6441fe85-8834-42bc-a8bb-c7d8d5772380",
+        "type": "container",
+        "contentType": "section",
+        "layout": "column",
+        "style": {
+          "position": "relative",
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(0, 1fr))",
+          "gridAutoFlow": "column",
+          "gap": "0.5em",
+          "minHeight": "28em",
+          "padding": "2em",
+          "height": "",
+          "width": ""
+        },
+        "children": [
+          {
+            "id": "f53ede14-f5b1-487b-b21d-77c0b4ee8e78",
+            "type": "container",
+            "contentType": "block",
+            "layout": "row",
+            "style": {
+              "position": "relative",
+              "display": "grid",
+              "gridTemplateColumns": "1fr",
+              "gridAutoFlow": "row",
+              "gap": "0.5em",
+              "height": "100%",
+              "width": "100%",
+              "borderStyle": "solid",
+              "borderWidth": "0.06666666666666667em",
+              "borderColor": "#aaa9a9"
+            },
+            "children": [
+              {
+                "id": "e10d550b-1d3e-4a7a-bd14-8a8921589561",
+                "type": "container",
+                "contentType": "block",
+                "layout": "row",
+                "style": {
+                  "position": "relative",
+                  "display": "grid",
+                  "gridTemplateColumns": "1fr",
+                  "gridAutoFlow": "row",
+                  "gap": "0.5em",
+                  "height": "4.666666666666667em",
+                  "width": "100%",
+                  "padding": "0.6666666666666666em",
+                  "alignContent": "center",
+                  "justifyItems": "center",
+                  "borderStyle": "none",
+                  "borderWidth": "0.06666666666666667em",
+                  "borderColor": "#aaa9a9"
+                },
+                "children": [
+                  {
+                    "id": "1ee24ec7-b103-4d22-8576-d7a66ee3f5c1",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"1.2666666666666666em\"}},{\"type\":\"bold\"}],\"text\":\"Lorem, ipsum dolor\"}]}]}"
+                  }
+                ]
+              },
+              {
+                "id": "30a7ebcf-ad21-48d4-9efc-312404eb3667",
+                "type": "container",
+                "contentType": "block",
+                "layout": "row",
+                "style": {
+                  "position": "relative",
+                  "display": "grid",
+                  "gridTemplateColumns": "1fr",
+                  "gridAutoFlow": "row",
+                  "gap": "0.5em",
+                  "height": "100%",
+                  "width": "100%",
+                  "padding": "2em"
+                },
+                "children": [
+                  {
+                    "id": "3df7c2a5-3f28-4fbf-ba23-02c510ade501",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"#d0021b\",\"fontFamily\":null,\"fontSize\":null}},{\"type\":\"bold\"}],\"text\":\"Lorem ipsum dolor sit amet.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"Quos, vell Amet consectetur adipisicing elit.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"#d0021b\",\"fontFamily\":null,\"fontSize\":null}},{\"type\":\"bold\"}],\"text\":\"Color sit amet.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"Necessitatibus dolor esse culpa laudantium aliquam aperiam ex natus quisquam mollitia quod.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"#d0021b\",\"fontFamily\":null,\"fontSize\":null}},{\"type\":\"bold\"}],\"text\":\"Ullam hic aperiam esse sapiente cumque!.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"Tempore nobis debitis tenetur veritatis quasi?\"}]}]}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "dacc1d53-dbae-4c68-a41d-4fa9d7c04355",
+            "type": "container",
+            "contentType": "block",
+            "layout": "row",
+            "style": {
+              "position": "relative",
+              "display": "grid",
+              "gridTemplateColumns": "1fr",
+              "gridAutoFlow": "row",
+              "gap": "0.5em",
+              "height": "100%",
+              "width": "100%",
+              "borderStyle": "solid",
+              "borderWidth": "0.06666666666666667em",
+              "borderColor": "#aaa9a9"
+            },
+            "children": [
+              {
+                "id": "7d0ffb33-0cf4-4f48-be32-569734c75a3d",
+                "type": "container",
+                "contentType": "block",
+                "layout": "row",
+                "style": {
+                  "position": "relative",
+                  "display": "grid",
+                  "gridTemplateColumns": "1fr",
+                  "gridAutoFlow": "row",
+                  "gap": "0.5em",
+                  "height": "4.666666666666667em",
+                  "width": "100%",
+                  "padding": "0.6666666666666666em",
+                  "alignContent": "center",
+                  "justifyItems": "center",
+                  "borderStyle": "none",
+                  "borderWidth": "0.06666666666666667em",
+                  "borderColor": "#aaa9a9"
+                },
+                "children": [
+                  {
+                    "id": "0f80c2d7-2752-4d54-8527-3217d9525e99",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"1.2666666666666666em\"}},{\"type\":\"bold\"}],\"text\":\"Lorem, ipsum dolor\"}]}]}"
+                  }
+                ]
+              },
+              {
+                "id": "e5f805ec-0ce4-48af-ad81-650ff03fe0e1",
+                "type": "container",
+                "contentType": "block",
+                "layout": "row",
+                "style": {
+                  "position": "relative",
+                  "display": "grid",
+                  "gridTemplateColumns": "1fr",
+                  "gridAutoFlow": "row",
+                  "gap": "0.5em",
+                  "height": "100%",
+                  "width": "100%",
+                  "padding": "2em"
+                },
+                "children": [
+                  {
+                    "id": "cad09c89-09d9-48dd-b15d-198bc1aec372",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"#d0021b\",\"fontFamily\":null,\"fontSize\":null}},{\"type\":\"bold\"}],\"text\":\"Lorem ipsum dolor sit amet.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"Quos, vell Amet consectetur adipisicing elit.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"#d0021b\",\"fontFamily\":null,\"fontSize\":null}},{\"type\":\"bold\"}],\"text\":\"Color sit amet.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"Necessitatibus dolor esse culpa laudantium aliquam aperiam ex natus quisquam mollitia quod.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"#d0021b\",\"fontFamily\":null,\"fontSize\":null}},{\"type\":\"bold\"}],\"text\":\"Ullam hic aperiam esse sapiente cumque!.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"Tempore nobis debitis tenetur veritatis quasi?\"}]}]}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "9cc52e66-0ca3-420c-95a4-ed682779e2dc",
+            "type": "container",
+            "contentType": "block",
+            "layout": "row",
+            "style": {
+              "position": "relative",
+              "display": "grid",
+              "gridTemplateColumns": "1fr",
+              "gridAutoFlow": "row",
+              "gap": "0.5em",
+              "height": "100%",
+              "width": "100%",
+              "borderStyle": "solid",
+              "borderWidth": "0.06666666666666667em",
+              "borderColor": "#aaa9a9"
+            },
+            "children": [
+              {
+                "id": "01489842-bdae-4367-99c9-f92dd08f9c47",
+                "type": "container",
+                "contentType": "block",
+                "layout": "row",
+                "style": {
+                  "position": "relative",
+                  "display": "grid",
+                  "gridTemplateColumns": "1fr",
+                  "gridAutoFlow": "row",
+                  "gap": "0.5em",
+                  "height": "4.666666666666667em",
+                  "width": "100%",
+                  "padding": "0.6666666666666666em",
+                  "alignContent": "center",
+                  "justifyItems": "center",
+                  "borderStyle": "none",
+                  "borderWidth": "0.06666666666666667em",
+                  "borderColor": "#aaa9a9"
+                },
+                "children": [
+                  {
+                    "id": "e86771a8-b5da-4ef1-94d4-717527fd4ca7",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":null,\"fontFamily\":null,\"fontSize\":\"1.2666666666666666em\"}},{\"type\":\"bold\"}],\"text\":\"Lorem, ipsum dolor\"}]}]}"
+                  }
+                ]
+              },
+              {
+                "id": "749f273a-d878-48d1-98b6-ad077929b03f",
+                "type": "container",
+                "contentType": "block",
+                "layout": "row",
+                "style": {
+                  "position": "relative",
+                  "display": "grid",
+                  "gridTemplateColumns": "1fr",
+                  "gridAutoFlow": "row",
+                  "gap": "0.5em",
+                  "height": "100%",
+                  "width": "100%",
+                  "padding": "2em"
+                },
+                "children": [
+                  {
+                    "id": "97abf770-2659-4bbc-bd38-c6d1bafb887f",
+                    "type": "content",
+                    "contentType": "text",
+                    "style": {
+                      "fontSize": "1.25em",
+                      "height": "fit-content"
+                    },
+                    "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"#d0021b\",\"fontFamily\":null,\"fontSize\":null}},{\"type\":\"bold\"}],\"text\":\"Lorem ipsum dolor sit amet.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"Quos, vell Amet consectetur adipisicing elit.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"#d0021b\",\"fontFamily\":null,\"fontSize\":null}},{\"type\":\"bold\"}],\"text\":\"Color sit amet.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"Necessitatibus dolor esse culpa laudantium aliquam aperiam ex natus quisquam mollitia quod.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"#d0021b\",\"fontFamily\":null,\"fontSize\":null}},{\"type\":\"bold\"}],\"text\":\"Ullam hic aperiam esse sapiente cumque!.\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"Tempore nobis debitis tenetur veritatis quasi?\"}]}]}"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6e2b0dfb-6892-4391-a2ee-f1e535347c2f",
+        "type": "container",
+        "contentType": "section",
+        "layout": "column",
+        "style": {
+          "position": "relative",
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(0, 1fr))",
+          "gridAutoFlow": "column",
+          "gap": "0.5em",
+          "minHeight": "0em",
+          "padding": "1.25em",
+          "height": "",
+          "width": "",
+          "backgroundColor": "#555555"
+        },
+        "children": [
+          {
+            "id": "b60912f3-657c-4893-8a92-b3f4ca1e553a",
+            "type": "content",
+            "contentType": "text",
+            "style": {
+              "fontSize": "1.25em",
+              "height": "fit-content"
+            },
+            "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"#f0f0f0\",\"fontFamily\":null,\"fontSize\":null}}],\"text\":\"Organizer: John Doe \"}]}]}"
+          }
+        ]
+      }
+    ]
+  },
+  "created_at": "2025-05-19T17:19:48.559Z",
+  "updated_at": "2025-05-21T01:49:36.373Z",
+  "thumbnail": ""
+}

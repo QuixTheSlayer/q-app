@@ -1,0 +1,48 @@
+{
+  "tooltip": {
+    "duplicate": "Dupliquer",
+    "createTemplate": "Créer un modèle",
+    "delete": "Supprimer",
+    "selectParent": "Sélectionner le parent",
+    "link": "Lien",
+    "moreActions": "Plus d'actions"
+  },
+  "menu": {
+    "actionsLabel": "Actions",
+    "copy": "Copier",
+    "paste": "Coller",
+    "duplicate": "Dupliquer",
+    "replace": "Remplacer",
+    "replaceDone": "Élément remplacé",
+    "replaceSectionMismatch": "Une section de page ne peut être remplacée que par une autre section",
+    "delete": "Supprimer",
+    "group": "Grouper",
+    "split": "Diviser",
+    "joinWithNext": "Joindre au suivant",
+    "moveRow": "Déplacer ← →",
+    "moveColumn": "Déplacer ↑ ↓",
+    "showGrid": "Afficher l'arrière-plan quadrillé",
+    "hideGrid": "Masquer l'arrière-plan quadrillé",
+    "selectParent": "Sélectionner le parent",
+    "importHtml": "Importer du HTML",
+    "exportHtml": "Exporter en HTML",
+    "exportImage": "Exporter en image",
+    "importHtmlDescription": "Collez du HTML pour remplacer le contenu de cet élément.",
+    "importHtmlSuccess": "Remplacé par le HTML importé",
+    "importHtmlFailed": "Impossible de convertir ce HTML",
+    "importHtmlNothingConverted": "Rien de convertible n'a été trouvé dans ce HTML",
+    "exportHtmlSuccess": "HTML copié dans le presse-papiers",
+    "exportHtmlFailed": "Impossible de trouver cet élément sur le canevas",
+    "exportImageFailed": "Impossible de capturer cet élément"
+  },
+  "createTemplateModal": {
+    "title": "Confirmation de création !",
+    "description": "Voulez-vous vraiment créer ceci en tant que sous-modèle ?"
+  },
+  "toast": {
+    "subTemplateCreated": "Sous-modèle {{name}} créé avec succès !"
+  },
+  "dialog": {
+    "cancel": "Annuler"
+  }
+}

@@ -1,0 +1,180 @@
+.VPNav,.VPLocalNav,.VPSidebar,.VPFooter  {
+  display: none !important;
+}
+
+
+
+.cus-gradient {
+  @apply bg-gradient-to-r from-[#50cd89]/10 via-[#50cd89]/50 to-[#50cd89]/10
+}
+
+.cus-banner-gradient {
+  @apply bg-gradient-to-r  from-yellow-200/20 via-yellow-200/80  to-yellow-200/20
+}
+
+.cus-logo-gradient {
+ @apply bg-gradient-to-b from-[#50cd89]/40 via-[#50cd89]/90 to-[#50cd89]/40
+}
+.dark .cus-logo-gradient {
+ @apply bg-gradient-to-r from-[#50cd89]/10 via-[#50cd89]/50 to-[#50cd89]/10
+}
+
+
+.judgify-editor {
+  font-family: Arial, sans-serif;
+}
+
+/*
+ * Edit-mode only (Canvas.tsx) — NOT applied on RenderPage/Preview, where
+ * position:fixed must stay relative to the real browser viewport.
+ * `contain: layout` makes this element the containing block for any
+ * position:fixed descendant, so fixed nodes stay visually anchored to the
+ * device frame while editing instead of flying out to the actual window.
+ */
+.editor-canvas-frame {
+  contain: layout;
+}
+
+.judgify-editor> :first-child {
+  margin-top: 0;
+}
+
+/* Table-specific styling */
+.judgify-editor table {
+  border-collapse: collapse;
+  margin: 0;
+  overflow: hidden;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.table-node * {
+  border-color: inherit;
+}
+
+/* .table-node > div > div {
+  border-color: inherit;
+}
+
+.table-node > div > div > div {
+  border-color: inherit;
+} */
+
+.judgify-editor table td,
+.judgify-editor table th {
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  min-width: 1em;
+  padding: 6px 8px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.judgify-editor table td>*,
+.judgify-editor table th>* {
+  margin-bottom: 0;
+  cursor: text
+}
+
+.judgify-editor table th {
+  font-weight: normal;
+  text-align: left;
+}
+
+.judgify-editor table .selectedCell::after {
+  background: rgb(147 197 253 / 0.5);
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.judgify-editor table .column-resize-handle {
+  background-color: rgb(var(--highlight));
+  bottom: -2px;
+  pointer-events: none;
+  position: absolute;
+  right: -2px;
+  top: 0;
+  width: 4px;
+  z-index: 3;
+}
+
+.judgify-editor .tableWrapper {
+  overflow-x: auto;
+  height: 100%;
+}
+
+.judgify-editor .ProseMirror {
+  height: 100%;
+}
+
+.judgify-editor .dragged-table {
+  height: 100%;
+}
+
+.judgify-editor .resize-cursor {
+  cursor: col-resize;
+}
+
+.judgify-editor .menu-shadow {
+  box-shadow: 0px 0px 0px 1px rgba(64, 87, 109, .04), 0px 6px 20px -4px rgba(64, 87, 109, .3);
+}
+
+.judgify-editor .dragged-table tr {
+  height: 2.77em !important;
+}
+
+.judgify-editor em {
+  font-style: italic !important;
+}
+
+/* Builder heading weights; an imported page ([data-lp-page]) keeps its own. */
+.judgify-editor h1:not(:where([data-lp-page] *)) {
+  font-weight: 800;
+}
+
+.judgify-editor h2:not(:where([data-lp-page] *)) {
+  font-weight: 700;
+}
+
+.judgify-editor h3:not(:where([data-lp-page] *)) {
+  font-weight: 600;
+}
+
+.judgify-editor h4:not(:where([data-lp-page] *)) {
+  font-weight: 500;
+}
+
+.node:hover:not(:has(div:hover))>* {
+  outline: 1.3px dashed violet;
+  /* Pushes the outline slightly outward from the child */
+}
+
+/* 2. Make parents ignore the mouse, so the hover doesn't bubble up */
+.parent {
+  pointer-events: none;
+}
+
+/* 3. Turn pointer events back on ONLY for the children/content so they can be hovered */
+.parent>* {
+  pointer-events: auto;
+}
+
+.node:has(.node:hover)>* {
+  outline: none 0 none;
+}
+
+
+/* Target ONLY a div where .child-class is a direct, immediate child */
+  div:has( div > .thumbnail-modal-wrapper) {
+   min-width: 30vw !important;
+}
+
+

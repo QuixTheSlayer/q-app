@@ -1,0 +1,48 @@
+{
+  "tooltip": {
+    "duplicate": "Duplicate",
+    "createTemplate": "Create Template",
+    "delete": "Delete",
+    "selectParent": "Select parent",
+    "link": "Link",
+    "moreActions": "More Actions"
+  },
+  "menu": {
+    "actionsLabel": "Actions",
+    "copy": "Copy",
+    "paste": "Paste",
+    "duplicate": "Duplicate",
+    "replace": "Replace",
+    "replaceDone": "Element replaced",
+    "replaceSectionMismatch": "A page section can only be replaced with another section",
+    "delete": "Delete",
+    "group": "Group",
+    "split": "Split",
+    "joinWithNext": "Join with next",
+    "moveRow": "Move ← →",
+    "moveColumn": "Move ↑ ↓",
+    "showGrid": "Show grid background",
+    "hideGrid": "Hide grid background",
+    "selectParent": "Select parent",
+    "importHtml": "Import HTML",
+    "exportHtml": "Export as HTML",
+    "exportImage": "Export as image",
+    "importHtmlDescription": "Paste HTML to replace this element's contents.",
+    "importHtmlSuccess": "Replaced with imported HTML",
+    "importHtmlFailed": "Could not convert that HTML",
+    "importHtmlNothingConverted": "Nothing convertible was found in that HTML",
+    "exportHtmlSuccess": "HTML copied to clipboard",
+    "exportHtmlFailed": "Could not find this element on the canvas",
+    "exportImageFailed": "Could not capture this element"
+  },
+  "createTemplateModal": {
+    "title": "Create Action Confirmation!",
+    "description": "Are you sure want to create this as sub-template?"
+  },
+  "toast": {
+    "subTemplateCreated": "Sub-Template {{name}} successfully created!"
+  },
+  "dialog": {
+    "cancel": "Cancel"
+  }
+}

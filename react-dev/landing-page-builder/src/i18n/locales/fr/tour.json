@@ -1,0 +1,75 @@
+{
+  "ariaLabel": "Visite de démarrage",
+  "next": "Suivant",
+  "back": "Précédent",
+  "finish": "Commencer",
+  "close": "Fermer la visite",
+  "skip": "Passer la visite",
+  "stepCounter": "Étape {{current}} sur {{total}}",
+  "steps": {
+    "welcome": {
+      "title": "Bienvenue dans le Landing Page Builder ! 👋",
+      "description": "Faisons une visite rapide pour que vous sachiez exactement où tout se trouve avant de commencer à construire."
+    },
+    "insertPanel": {
+      "title": "Ajoutez du contenu ici",
+      "description": "Voici le panneau Insérer — tout ce que vous ajoutez à votre page commence ici. Voyons les trois principaux éléments que vous pouvez insérer."
+    },
+    "addSection": {
+      "title": "Les sections structurent votre page",
+      "description": "Une Section est une rangée pleine largeur sur votre page. Cliquez sur « Section » pour en ajouter une — une page se compose généralement de quelques sections empilées de haut en bas (bannière, fonctionnalités, pied de page, etc.)."
+    },
+    "addBlock": {
+      "title": "Les blocs organisent une section",
+      "description": "Un Block se trouve à l'intérieur d'une section et regroupe du contenu, comme une carte ou une colonne. Cliquez sur « Block » pour en ajouter un à l'endroit sélectionné."
+    },
+    "addContents": {
+      "title": "Le contenu, c'est ce que voient les visiteurs",
+      "description": "Texte, image et bouton sont le contenu réel qui va à l'intérieur d'un bloc — c'est ce que vos visiteurs lisent, regardent et cliquent."
+    },
+    "canvas": {
+      "title": "Voici votre zone de travail",
+      "description": "Ceci est votre page en direct. Cliquez sur n'importe quel élément pour le sélectionner, puis modifiez son contenu et son style à l'aide du panneau de droite."
+    },
+    "propertyPanel": {
+      "title": "Passez au panneau Propriétés",
+      "description": "Cliquez sur cette icône pour passer du panneau Insérer au panneau Propriétés — c'est ici que vous stylerez et configurerez tout ce que vous sélectionnez."
+    },
+    "propertyControls": {
+      "title": "Ajustez votre sélection",
+      "description": "Une fois un élément sélectionné, ses couleurs, espacements, texte, bordures et autres réglages apparaissent ici — c'est ici que vous affinez l'apparence de tout élément de votre page."
+    },
+    "pageName": {
+      "title": "Nommez votre page",
+      "description": "Cliquez sur le titre de la page dans la barre supérieure pour le renommer — c'est ainsi que vous la retrouverez dans votre tableau de bord."
+    },
+    "viewSwitcher": {
+      "title": "Aperçu à différentes tailles",
+      "description": "Basculez ici entre Ordinateur, Tablette et Mobile pour voir comment votre page s'adapte à chaque taille d'écran."
+    },
+    "thumbnailCapture": {
+      "title": "Capturez une miniature",
+      "description": "Ouvrez le panneau Paramètres de la page pour capturer et mettre à jour l'image miniature affichée pour cette page dans votre tableau de bord."
+    },
+    "changeImage": {
+      "title": "Ouvrez le créateur de miniature",
+      "description": "Cliquez sur « Change » pour ouvrir la boîte de dialogue de création de miniature de cette page."
+    },
+    "createThumbnail": {
+      "title": "Choisissez un nombre et créez-la",
+      "description": "Dans la boîte de dialogue, choisissez le nombre de sections à inclure dans l'aperçu, puis cliquez sur Créer pour capturer et enregistrer une nouvelle miniature pour votre page."
+    },
+    "save": {
+      "title": "Enregistrez votre travail",
+      "description": "Les modifications ne sont pas publiées tant que vous ne les enregistrez pas. Cliquez ici (ou appuyez sur Ctrl+S) à tout moment pour enregistrer votre progression."
+    },
+    "preview": {
+      "title": "Prévisualisez votre page",
+      "description": "Découvrez exactement à quoi ressemblera votre page pour les visiteurs avant de la publier."
+    },
+    "done": {
+      "title": "Vous êtes prêt ! 🎉",
+      "description": "Voilà l'essentiel. Explorez librement — vous pouvez toujours rouvrir ce guide depuis le bouton d'aide dans la barre du haut."
+    }
+  }
+}

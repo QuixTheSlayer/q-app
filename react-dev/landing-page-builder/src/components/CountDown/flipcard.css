@@ -1,0 +1,76 @@
+.flip-top,
+.flip-bottom{
+    backface-visibility:hidden;
+    transform-style:preserve-3d;
+     backdrop-filter: blur(5px);
+    background-color: #d4d4d485;
+    /* border: 1px solid #d3d3d3a8; */
+}
+
+.flip-top{
+    transform-origin:center;
+    /* transform:rotateX(-45deg); */
+    animation:flipTop 0.4s ease-in forwards;
+    z-index:10;
+   border-bottom: 1px solid #d3d3d3bb;
+}
+
+.flip-bottom{
+    transform-origin:center;
+    /* transform:rotateX(-90deg); */
+    animation:slideBottom .4s  ease-out forwards;
+    z-index:9;
+     border-top: 1px solid #d3d3d3bb;
+}
+
+@keyframes flipTop{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform:translateY(-100%);
+    }
+}
+
+@keyframes slideBottom{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform:translateY(100%);
+    }
+}
+
+@keyframes flipBottom{
+   0%{
+        transform:rotateX(0);
+    }
+     50%{
+        transform:rotateX(45deg);
+    }
+    100%{
+        transform:rotateX(-90deg);
+    }
+
+}
+
+@keyframes flipBottomS{
+    0%{
+        transform:rotateX(90deg);
+    }
+     50%{
+        transform:rotateX(-45deg);
+    }
+    100%{
+        transform:rotateX(-90deg);
+    }
+}
+
+@keyframes splitFlapDown{
+    0%{
+        transform:rotateX(0deg);
+    }
+    100%{
+        transform:rotateX(-90deg);
+    }
+}

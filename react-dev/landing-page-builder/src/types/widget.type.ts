@@ -1,0 +1,1 @@
+export type WidgetType = "submitEntryButton" | "registerButton" | "endDate" | "endHour" | "timeZone";

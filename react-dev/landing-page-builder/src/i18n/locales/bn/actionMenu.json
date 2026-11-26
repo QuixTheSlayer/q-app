@@ -1,0 +1,48 @@
+{
+  "tooltip": {
+    "duplicate": "ডুপ্লিকেট",
+    "createTemplate": "টেমপ্লেট তৈরি করুন",
+    "delete": "ডিলিট",
+    "selectParent": "প্যারেন্ট সিলেক্ট করুন",
+    "link": "লিংক",
+    "moreActions": "আরও অ্যাকশন"
+  },
+  "menu": {
+    "actionsLabel": "অ্যাকশন",
+    "copy": "কপি",
+    "paste": "পেস্ট",
+    "duplicate": "ডুপ্লিকেট",
+    "replace": "প্রতিস্থাপন",
+    "replaceDone": "এলিমেন্ট প্রতিস্থাপিত হয়েছে",
+    "replaceSectionMismatch": "একটি পেজ সেকশন শুধু অন্য সেকশন দিয়েই প্রতিস্থাপন করা যায়",
+    "delete": "ডিলিট",
+    "group": "গ্রুপ",
+    "split": "স্প্লিট",
+    "joinWithNext": "পরেরটির সাথে জয়েন করুন",
+    "moveRow": "রো মুভ করুন ← →",
+    "moveColumn": "কলাম মুভ করুন ↑ ↓",
+    "showGrid": "গ্রিড ব্যাকগ্রাউন্ড দেখান",
+    "hideGrid": "গ্রিড ব্যাকগ্রাউন্ড লুকান",
+    "selectParent": "প্যারেন্ট সিলেক্ট করুন",
+    "importHtml": "HTML আমদানি করুন",
+    "exportHtml": "HTML হিসেবে রপ্তানি করুন",
+    "exportImage": "ছবি হিসেবে রপ্তানি করুন",
+    "importHtmlDescription": "এই উপাদানটির বিষয়বস্তু প্রতিস্থাপন করতে HTML পেস্ট করুন।",
+    "importHtmlSuccess": "আমদানি করা HTML দিয়ে প্রতিস্থাপিত হয়েছে",
+    "importHtmlFailed": "সেই HTML রূপান্তর করা যায়নি",
+    "importHtmlNothingConverted": "সেই HTML-এ রূপান্তরযোগ্য কিছু পাওয়া যায়নি",
+    "exportHtmlSuccess": "HTML ক্লিপবোর্ডে কপি করা হয়েছে",
+    "exportHtmlFailed": "ক্যানভাসে এই উপাদানটি খুঁজে পাওয়া যায়নি",
+    "exportImageFailed": "এই উপাদানটি ক্যাপচার করা যায়নি"
+  },
+  "createTemplateModal": {
+    "title": "তৈরি নিশ্চিতকরণ!",
+    "description": "আপনি কি নিশ্চিত এটিকে সাব-টেমপ্লেট হিসেবে তৈরি করতে চান?"
+  },
+  "toast": {
+    "subTemplateCreated": "সাব-টেমপ্লেট {{name}} সফলভাবে তৈরি হয়েছে!"
+  },
+  "dialog": {
+    "cancel": "বাতিল করুন"
+  }
+}

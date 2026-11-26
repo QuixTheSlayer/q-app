@@ -1,0 +1,75 @@
+{
+  "ariaLabel": "新手導覽",
+  "next": "下一步",
+  "back": "上一步",
+  "finish": "開始使用",
+  "close": "關閉導覽",
+  "skip": "略過導覽",
+  "stepCounter": "第 {{current}} / {{total}} 步",
+  "steps": {
+    "welcome": {
+      "title": "歡迎使用登陸頁面建構工具！👋",
+      "description": "在開始建立之前，先花點時間快速導覽一下，讓您了解所有功能的位置。"
+    },
+    "insertPanel": {
+      "title": "在這裡新增內容",
+      "description": "這是「插入」面板 — 您新增到頁面的所有內容都從這裡開始。我們來看看可以插入的三個主要項目。"
+    },
+    "addSection": {
+      "title": "Section 堆疊出您的頁面",
+      "description": "Section 是頁面上的整行寬度區塊。點擊「Section」新增一個 — 頁面通常就是由幾個 Section 由上到下堆疊而成（主視覺、特色介紹、頁尾等）。"
+    },
+    "addBlock": {
+      "title": "Block 用來組織 Section 內容",
+      "description": "Block 位於 Section 內部，用來將內容組織在一起，例如卡片或欄位。點擊「Block」即可在您所選位置新增一個。"
+    },
+    "addContents": {
+      "title": "Contents 才是訪客真正看到的東西",
+      "description": "文字、圖片與按鈕是放入 Block 中的實際內容 — 這些才是訪客會閱讀、觀看與點擊的東西。"
+    },
+    "canvas": {
+      "title": "這是您的畫布",
+      "description": "這是您的即時頁面。點擊任何元素即可選取它，再使用右側面板編輯其內容與樣式。"
+    },
+    "propertyPanel": {
+      "title": "切換到「屬性」面板",
+      "description": "點擊此圖示可從「插入」面板切換到「屬性」面板 — 您可以在這裡為所選取的任何項目設定樣式與其他設定。"
+    },
+    "propertyControls": {
+      "title": "調整您所選取的內容",
+      "description": "選取內容後，其顏色、間距、文字、邊框等設定都會顯示在這裡 — 您可以在此微調頁面上任何元素的外觀。"
+    },
+    "pageName": {
+      "title": "為頁面命名",
+      "description": "點擊頂部列中的頁面標題即可重新命名 — 之後您會在儀表板中透過這個名稱找到它。"
+    },
+    "viewSwitcher": {
+      "title": "預覽不同尺寸",
+      "description": "在此切換「桌面」「平板」「行動裝置」檢視，查看您的頁面在各種螢幕尺寸下的呈現效果。"
+    },
+    "thumbnailCapture": {
+      "title": "擷取縮圖",
+      "description": "開啟「頁面設定」面板，即可擷取並更新此頁面在儀表板中顯示的縮圖。"
+    },
+    "changeImage": {
+      "title": "開啟縮圖建立工具",
+      "description": "點擊「Change」即可開啟此頁面的縮圖建立對話框。"
+    },
+    "createThumbnail": {
+      "title": "選擇數量並建立",
+      "description": "在對話框中，選擇預覽中要包含的區塊數量，然後點擊「建立」即可為您的頁面擷取並儲存新的縮圖。"
+    },
+    "save": {
+      "title": "儲存您的作業",
+      "description": "在您儲存之前，變更不會發佈。隨時點擊這裡（或按 Ctrl+S）即可儲存進度。"
+    },
+    "preview": {
+      "title": "預覽您的頁面",
+      "description": "在發佈前，先查看訪客實際會看到的頁面樣貌。"
+    },
+    "done": {
+      "title": "一切準備就緒！🎉",
+      "description": "以上是基本重點。盡情探索吧 — 您隨時都可以透過頂端列的說明按鈕重新開啟本導覽。"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "tooltip": {
+    "duplicate": "Duplizieren",
+    "createTemplate": "Vorlage erstellen",
+    "delete": "Löschen",
+    "selectParent": "Übergeordnetes Element auswählen",
+    "link": "Link",
+    "moreActions": "Weitere Aktionen"
+  },
+  "menu": {
+    "actionsLabel": "Aktionen",
+    "copy": "Kopieren",
+    "paste": "Einfügen",
+    "duplicate": "Duplizieren",
+    "replace": "Ersetzen",
+    "replaceDone": "Element ersetzt",
+    "replaceSectionMismatch": "Ein Seitenabschnitt kann nur durch einen anderen Abschnitt ersetzt werden",
+    "delete": "Löschen",
+    "group": "Gruppieren",
+    "split": "Teilen",
+    "joinWithNext": "Mit nächstem verbinden",
+    "moveRow": "Verschieben ← →",
+    "moveColumn": "Verschieben ↑ ↓",
+    "showGrid": "Rasterhintergrund anzeigen",
+    "hideGrid": "Rasterhintergrund ausblenden",
+    "selectParent": "Übergeordnetes Element auswählen",
+    "importHtml": "HTML importieren",
+    "exportHtml": "Als HTML exportieren",
+    "exportImage": "Als Bild exportieren",
+    "importHtmlDescription": "HTML einfügen, um den Inhalt dieses Elements zu ersetzen.",
+    "importHtmlSuccess": "Mit importiertem HTML ersetzt",
+    "importHtmlFailed": "Dieses HTML konnte nicht konvertiert werden",
+    "importHtmlNothingConverted": "In diesem HTML wurde nichts Konvertierbares gefunden",
+    "exportHtmlSuccess": "HTML in die Zwischenablage kopiert",
+    "exportHtmlFailed": "Dieses Element wurde auf der Canvas nicht gefunden",
+    "exportImageFailed": "Dieses Element konnte nicht erfasst werden"
+  },
+  "createTemplateModal": {
+    "title": "Erstellbestätigung!",
+    "description": "Möchtest du dies wirklich als Unter-Vorlage erstellen?"
+  },
+  "toast": {
+    "subTemplateCreated": "Unter-Vorlage {{name}} erfolgreich erstellt!"
+  },
+  "dialog": {
+    "cancel": "Abbrechen"
+  }
+}

@@ -1,0 +1,562 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test/editor/full-page-build-walkthrough.spec.ts",
+      "--project=chromium",
+      "--reporter=./qa-server/qa-reporter.mjs,json,html"
+    ],
+    "configFile": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright.config.ts",
+    "rootDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\qa-server\\qa-reporter.mjs"
+      ],
+      [
+        "json"
+      ],
+      [
+        "html"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "editor\\full-page-build-walkthrough.spec.ts",
+      "file": "editor/full-page-build-walkthrough.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Full page build walkthrough (real vhost)",
+          "file": "editor/full-page-build-walkthrough.spec.ts",
+          "line": 404,
+          "column": 6,
+          "specs": [
+            {
+              "title": "open an existing page and build a real event page section by section -> Save",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 600000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 88894,
+                      "error": {
+                        "message": "Error: Image Slider (node 57bda1d5-82a2-4462-9b86-e6f591ac1fba) property check failed: Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#qa-image-slider-57bda1d5').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('#qa-image-slider-57bda1d5').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#qa-image-slider-57bda1d5').first()\u001b[22m\n\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: Image Slider (node 57bda1d5-82a2-4462-9b86-e6f591ac1fba) property check failed: Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#qa-image-slider-57bda1d5').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('#qa-image-slider-57bda1d5').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#qa-image-slider-57bda1d5').first()\u001b[22m\n\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at verifyNodeProperties (C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:367:88)\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:464:9\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:463:7",
+                        "location": {
+                          "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                          "column": 88,
+                          "line": 367
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 365 |\u001b[39m     \u001b[36mif\u001b[39m (bonus) \u001b[36mawait\u001b[39m bonus(page\u001b[33m,\u001b[39m node)\u001b[33m;\u001b[39m\n \u001b[90m 366 |\u001b[39m   } \u001b[36mcatch\u001b[39m (err) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 367 |\u001b[39m     expect\u001b[33m.\u001b[39msoft(\u001b[36mfalse\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`${item.label} (node ${nodeId}) property check failed: ${err}`\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 368 |\u001b[39m   } \u001b[36mfinally\u001b[39m {\n \u001b[90m 369 |\u001b[39m     \u001b[90m// However that went, get back to a state the next step can rely on —\u001b[39m\n \u001b[90m 370 |\u001b[39m     \u001b[90m// Property panel is the OUTER sidebar view, and openLayersTab/\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                            "column": 88,
+                            "line": 367
+                          },
+                          "message": "Error: Image Slider (node 57bda1d5-82a2-4462-9b86-e6f591ac1fba) property check failed: Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#qa-image-slider-57bda1d5').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('#qa-image-slider-57bda1d5').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#qa-image-slider-57bda1d5').first()\u001b[22m\n\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n  365 |     if (bonus) await bonus(page, node);\n  366 |   } catch (err) {\n> 367 |     expect.soft(false, `${item.label} (node ${nodeId}) property check failed: ${err}`).toBe(true);\n      |                                                                                        ^\n  368 |   } finally {\n  369 |     // However that went, get back to a state the next step can rely on —\n  370 |     // Property panel is the OUTER sidebar view, and openLayersTab/\n    at verifyNodeProperties (C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:367:88)\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:464:9\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:463:7"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                            "column": 88,
+                            "line": 367
+                          },
+                          "message": "Error: Image Carousel (node ae3dfbcb-f96b-4b1a-bdd5-83759b4fba05) property check failed: Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#qa-image-carousel-ae3dfbcb').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('#qa-image-carousel-ae3dfbcb').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#qa-image-carousel-ae3dfbcb').first()\u001b[22m\n\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n  365 |     if (bonus) await bonus(page, node);\n  366 |   } catch (err) {\n> 367 |     expect.soft(false, `${item.label} (node ${nodeId}) property check failed: ${err}`).toBe(true);\n      |                                                                                        ^\n  368 |   } finally {\n  369 |     // However that went, get back to a state the next step can rely on —\n  370 |     // Property panel is the OUTER sidebar view, and openLayersTab/\n    at verifyNodeProperties (C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:367:88)\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:464:9\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:463:7"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                            "column": 88,
+                            "line": 367
+                          },
+                          "message": "Error: FAQ (node f924a127-b8ca-4127-b0a4-33571c33b220) property check failed: TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=/Properties$/').first().locator('xpath=ancestor::div[contains(@class, \"overflow-y-auto\")][1]').locator('xpath=.//legend[normalize-space()=\"Id\"]/following-sibling::input | .//legend[normalize-space()=\"Id\"]/following-sibling::*//input').first()\u001b[22m\n\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n  365 |     if (bonus) await bonus(page, node);\n  366 |   } catch (err) {\n> 367 |     expect.soft(false, `${item.label} (node ${nodeId}) property check failed: ${err}`).toBe(true);\n      |                                                                                        ^\n  368 |   } finally {\n  369 |     // However that went, get back to a state the next step can rely on —\n  370 |     // Property panel is the OUTER sidebar view, and openLayersTab/\n    at verifyNodeProperties (C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:367:88)\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:464:9\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:463:7"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                            "column": 10,
+                            "line": 537
+                          },
+                          "message": "Error: Dragging \"Sponsor Bronze\" (index 2) above \"Sponsor Gold\" (index 0) did not change the on-canvas order — known flaky drag path, see comment above.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m0\u001b[39m\nReceived:   \u001b[31m2\u001b[39m\n\n  535 |           `Dragging \"Sponsor Bronze\" (index ${bronzeIndex}) above \"Sponsor Gold\" (index ${goldIndex}) did not change the on-canvas order — known flaky drag path, see comment above.`,\n  536 |         )\n> 537 |         .toBeLessThan(goldIndex);\n      |          ^\n  538 |     });\n  539 |\n  540 |     await test.step('Every node type landed in the Layers tree', async () => {\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:537:10\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:486:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Open page 59 directly in the editor",
+                          "duration": 1593
+                        },
+                        {
+                          "title": "Add the \"Hero\" section",
+                          "duration": 493
+                        },
+                        {
+                          "title": "Insert Text into Hero",
+                          "duration": 512
+                        },
+                        {
+                          "title": "Insert Button into Hero",
+                          "duration": 453
+                        },
+                        {
+                          "title": "Insert Countdown into Hero",
+                          "duration": 588
+                        },
+                        {
+                          "title": "Add the \"Event Details\" section",
+                          "duration": 462
+                        },
+                        {
+                          "title": "Insert Image into Event Details",
+                          "duration": 484
+                        },
+                        {
+                          "title": "Insert Icon Block into Event Details",
+                          "duration": 591
+                        },
+                        {
+                          "title": "Insert Separators into Event Details",
+                          "duration": 489
+                        },
+                        {
+                          "title": "Insert End date into Event Details",
+                          "duration": 444
+                        },
+                        {
+                          "title": "Insert End hour into Event Details",
+                          "duration": 440
+                        },
+                        {
+                          "title": "Insert Time zone into Event Details",
+                          "duration": 422
+                        },
+                        {
+                          "title": "Add the \"Schedule\" section",
+                          "duration": 456
+                        },
+                        {
+                          "title": "Insert Timeline into Schedule",
+                          "duration": 561
+                        },
+                        {
+                          "title": "Insert Table into Schedule",
+                          "duration": 1207
+                        },
+                        {
+                          "title": "Add the \"Speakers & Judges\" section",
+                          "duration": 725
+                        },
+                        {
+                          "title": "Insert Tabs into Speakers & Judges",
+                          "duration": 771
+                        },
+                        {
+                          "title": "Insert Accordion into Speakers & Judges",
+                          "duration": 529
+                        },
+                        {
+                          "title": "Insert Testimonial Slider into Speakers & Judges",
+                          "duration": 745
+                        },
+                        {
+                          "title": "Insert Rating into Speakers & Judges",
+                          "duration": 621
+                        },
+                        {
+                          "title": "Add the \"Registration & Pricing\" section",
+                          "duration": 571
+                        },
+                        {
+                          "title": "Insert Submit Entry Button into Registration & Pricing",
+                          "duration": 541
+                        },
+                        {
+                          "title": "Insert Register Button into Registration & Pricing",
+                          "duration": 466
+                        },
+                        {
+                          "title": "Insert Pricing Toggle into Registration & Pricing",
+                          "duration": 589
+                        },
+                        {
+                          "title": "Insert Progress Bar into Registration & Pricing",
+                          "duration": 561
+                        },
+                        {
+                          "title": "Insert Counter into Registration & Pricing",
+                          "duration": 613
+                        },
+                        {
+                          "title": "Insert Chart into Registration & Pricing",
+                          "duration": 641
+                        },
+                        {
+                          "title": "Add the \"Media & Location\" section",
+                          "duration": 586
+                        },
+                        {
+                          "title": "Insert Youtube into Media & Location",
+                          "duration": 643
+                        },
+                        {
+                          "title": "Insert Vimeo into Media & Location",
+                          "duration": 599
+                        },
+                        {
+                          "title": "Insert Google Map into Media & Location",
+                          "duration": 791
+                        },
+                        {
+                          "title": "Insert Web View into Media & Location",
+                          "duration": 659
+                        },
+                        {
+                          "title": "Insert Image Slider into Media & Location",
+                          "duration": 610
+                        },
+                        {
+                          "title": "Insert Image Carousel into Media & Location",
+                          "duration": 586
+                        },
+                        {
+                          "title": "Insert Image Flip Flop into Media & Location",
+                          "duration": 627
+                        },
+                        {
+                          "title": "Add the \"FAQ & Social\" section",
+                          "duration": 606
+                        },
+                        {
+                          "title": "Insert FAQ into FAQ & Social",
+                          "duration": 667
+                        },
+                        {
+                          "title": "Insert Social into FAQ & Social",
+                          "duration": 582
+                        },
+                        {
+                          "title": "Give the Hero section real event copy",
+                          "duration": 3358
+                        },
+                        {
+                          "title": "Adjust and verify Text's properties",
+                          "duration": 1095
+                        },
+                        {
+                          "title": "Adjust and verify Button's properties",
+                          "duration": 876
+                        },
+                        {
+                          "title": "Adjust and verify Countdown's properties",
+                          "duration": 1401
+                        },
+                        {
+                          "title": "Adjust and verify Image's properties",
+                          "duration": 982
+                        },
+                        {
+                          "title": "Adjust and verify Icon Block's properties",
+                          "duration": 556
+                        },
+                        {
+                          "title": "Adjust and verify Separators's properties",
+                          "duration": 502
+                        },
+                        {
+                          "title": "Adjust and verify End date's properties",
+                          "duration": 702
+                        },
+                        {
+                          "title": "Adjust and verify End hour's properties",
+                          "duration": 699
+                        },
+                        {
+                          "title": "Adjust and verify Time zone's properties",
+                          "duration": 704
+                        },
+                        {
+                          "title": "Adjust and verify Timeline's properties",
+                          "duration": 677
+                        },
+                        {
+                          "title": "Adjust and verify Table's properties",
+                          "duration": 568
+                        },
+                        {
+                          "title": "Adjust and verify Tabs's properties",
+                          "duration": 549
+                        },
+                        {
+                          "title": "Adjust and verify Accordion's properties",
+                          "duration": 683
+                        },
+                        {
+                          "title": "Adjust and verify Testimonial Slider's properties",
+                          "duration": 683
+                        },
+                        {
+                          "title": "Adjust and verify Rating's properties",
+                          "duration": 532
+                        },
+                        {
+                          "title": "Adjust and verify Submit Entry Button's properties",
+                          "duration": 656
+                        },
+                        {
+                          "title": "Adjust and verify Register Button's properties",
+                          "duration": 619
+                        },
+                        {
+                          "title": "Adjust and verify Pricing Toggle's properties",
+                          "duration": 627
+                        },
+                        {
+                          "title": "Adjust and verify Progress Bar's properties",
+                          "duration": 863
+                        },
+                        {
+                          "title": "Adjust and verify Counter's properties",
+                          "duration": 480
+                        },
+                        {
+                          "title": "Adjust and verify Chart's properties",
+                          "duration": 564
+                        },
+                        {
+                          "title": "Adjust and verify Youtube's properties",
+                          "duration": 632
+                        },
+                        {
+                          "title": "Adjust and verify Vimeo's properties",
+                          "duration": 532
+                        },
+                        {
+                          "title": "Adjust and verify Google Map's properties",
+                          "duration": 488
+                        },
+                        {
+                          "title": "Adjust and verify Web View's properties",
+                          "duration": 507
+                        },
+                        {
+                          "title": "Adjust and verify Image Slider's properties",
+                          "duration": 10466,
+                          "error": {
+                            "message": "Error: Image Slider (node 57bda1d5-82a2-4462-9b86-e6f591ac1fba) property check failed: Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#qa-image-slider-57bda1d5').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('#qa-image-slider-57bda1d5').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#qa-image-slider-57bda1d5').first()\u001b[22m\n\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                            "stack": "Error: Image Slider (node 57bda1d5-82a2-4462-9b86-e6f591ac1fba) property check failed: Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#qa-image-slider-57bda1d5').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('#qa-image-slider-57bda1d5').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#qa-image-slider-57bda1d5').first()\u001b[22m\n\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at verifyNodeProperties (C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:367:88)\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:464:9\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:463:7",
+                            "location": {
+                              "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                              "column": 88,
+                              "line": 367
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 365 |\u001b[39m     \u001b[36mif\u001b[39m (bonus) \u001b[36mawait\u001b[39m bonus(page\u001b[33m,\u001b[39m node)\u001b[33m;\u001b[39m\n \u001b[90m 366 |\u001b[39m   } \u001b[36mcatch\u001b[39m (err) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 367 |\u001b[39m     expect\u001b[33m.\u001b[39msoft(\u001b[36mfalse\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`${item.label} (node ${nodeId}) property check failed: ${err}`\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 368 |\u001b[39m   } \u001b[36mfinally\u001b[39m {\n \u001b[90m 369 |\u001b[39m     \u001b[90m// However that went, get back to a state the next step can rely on —\u001b[39m\n \u001b[90m 370 |\u001b[39m     \u001b[90m// Property panel is the OUTER sidebar view, and openLayersTab/\u001b[39m\u001b[0m"
+                          }
+                        },
+                        {
+                          "title": "Adjust and verify Image Carousel's properties",
+                          "duration": 10514,
+                          "error": {
+                            "message": "Error: Image Carousel (node ae3dfbcb-f96b-4b1a-bdd5-83759b4fba05) property check failed: Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#qa-image-carousel-ae3dfbcb').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('#qa-image-carousel-ae3dfbcb').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#qa-image-carousel-ae3dfbcb').first()\u001b[22m\n\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                            "stack": "Error: Image Carousel (node ae3dfbcb-f96b-4b1a-bdd5-83759b4fba05) property check failed: Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#qa-image-carousel-ae3dfbcb').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('#qa-image-carousel-ae3dfbcb').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#qa-image-carousel-ae3dfbcb').first()\u001b[22m\n\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at verifyNodeProperties (C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:367:88)\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:464:9\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:463:7",
+                            "location": {
+                              "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                              "column": 88,
+                              "line": 367
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 365 |\u001b[39m     \u001b[36mif\u001b[39m (bonus) \u001b[36mawait\u001b[39m bonus(page\u001b[33m,\u001b[39m node)\u001b[33m;\u001b[39m\n \u001b[90m 366 |\u001b[39m   } \u001b[36mcatch\u001b[39m (err) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 367 |\u001b[39m     expect\u001b[33m.\u001b[39msoft(\u001b[36mfalse\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`${item.label} (node ${nodeId}) property check failed: ${err}`\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 368 |\u001b[39m   } \u001b[36mfinally\u001b[39m {\n \u001b[90m 369 |\u001b[39m     \u001b[90m// However that went, get back to a state the next step can rely on —\u001b[39m\n \u001b[90m 370 |\u001b[39m     \u001b[90m// Property panel is the OUTER sidebar view, and openLayersTab/\u001b[39m\u001b[0m"
+                          }
+                        },
+                        {
+                          "title": "Adjust and verify Image Flip Flop's properties",
+                          "duration": 403
+                        },
+                        {
+                          "title": "Adjust and verify FAQ's properties",
+                          "duration": 15364,
+                          "error": {
+                            "message": "Error: FAQ (node f924a127-b8ca-4127-b0a4-33571c33b220) property check failed: TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=/Properties$/').first().locator('xpath=ancestor::div[contains(@class, \"overflow-y-auto\")][1]').locator('xpath=.//legend[normalize-space()=\"Id\"]/following-sibling::input | .//legend[normalize-space()=\"Id\"]/following-sibling::*//input').first()\u001b[22m\n\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                            "stack": "Error: FAQ (node f924a127-b8ca-4127-b0a4-33571c33b220) property check failed: TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=/Properties$/').first().locator('xpath=ancestor::div[contains(@class, \"overflow-y-auto\")][1]').locator('xpath=.//legend[normalize-space()=\"Id\"]/following-sibling::input | .//legend[normalize-space()=\"Id\"]/following-sibling::*//input').first()\u001b[22m\n\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at verifyNodeProperties (C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:367:88)\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:464:9\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:463:7",
+                            "location": {
+                              "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                              "column": 88,
+                              "line": 367
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 365 |\u001b[39m     \u001b[36mif\u001b[39m (bonus) \u001b[36mawait\u001b[39m bonus(page\u001b[33m,\u001b[39m node)\u001b[33m;\u001b[39m\n \u001b[90m 366 |\u001b[39m   } \u001b[36mcatch\u001b[39m (err) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 367 |\u001b[39m     expect\u001b[33m.\u001b[39msoft(\u001b[36mfalse\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`${item.label} (node ${nodeId}) property check failed: ${err}`\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 368 |\u001b[39m   } \u001b[36mfinally\u001b[39m {\n \u001b[90m 369 |\u001b[39m     \u001b[90m// However that went, get back to a state the next step can rely on —\u001b[39m\n \u001b[90m 370 |\u001b[39m     \u001b[90m// Property panel is the OUTER sidebar view, and openLayersTab/\u001b[39m\u001b[0m"
+                          }
+                        },
+                        {
+                          "title": "Adjust and verify Social's properties",
+                          "duration": 669
+                        },
+                        {
+                          "title": "Add a \"Sponsors\" section for the reorder check",
+                          "duration": 669
+                        },
+                        {
+                          "title": "Insert \"Sponsor Gold\" text",
+                          "duration": 1652
+                        },
+                        {
+                          "title": "Insert \"Sponsor Silver\" text",
+                          "duration": 1735
+                        },
+                        {
+                          "title": "Insert \"Sponsor Bronze\" text",
+                          "duration": 1800
+                        },
+                        {
+                          "title": "Drag-reorder: move the last Sponsor node to the top",
+                          "duration": 493,
+                          "error": {
+                            "message": "Error: Dragging \"Sponsor Bronze\" (index 2) above \"Sponsor Gold\" (index 0) did not change the on-canvas order — known flaky drag path, see comment above.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m0\u001b[39m\nReceived:   \u001b[31m2\u001b[39m",
+                            "stack": "Error: Dragging \"Sponsor Bronze\" (index 2) above \"Sponsor Gold\" (index 0) did not change the on-canvas order — known flaky drag path, see comment above.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m0\u001b[39m\nReceived:   \u001b[31m2\u001b[39m\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:537:10\n    at C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts:486:5",
+                            "location": {
+                              "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                              "column": 10,
+                              "line": 537
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 535 |\u001b[39m           \u001b[32m`Dragging \"Sponsor Bronze\" (index ${bronzeIndex}) above \"Sponsor Gold\" (index ${goldIndex}) did not change the on-canvas order — known flaky drag path, see comment above.`\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 536 |\u001b[39m         )\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 537 |\u001b[39m         \u001b[33m.\u001b[39mtoBeLessThan(goldIndex)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 538 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 539 |\u001b[39m\n \u001b[90m 540 |\u001b[39m     \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m'Every node type landed in the Layers tree'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                          }
+                        },
+                        {
+                          "title": "Every node type landed in the Layers tree",
+                          "duration": 195
+                        },
+                        {
+                          "title": "Save the finished page",
+                          "duration": 484
+                        }
+                      ],
+                      "startTime": "2026-09-15T06:08:48.661Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\test-results\\editor-full-page-build-wal-c2065-e-section-by-section---Save-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright-test\\editor\\full-page-build-walkthrough.spec.ts",
+                        "column": 88,
+                        "line": 367
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9c475a795b66fecf2b6f-a2063eeefc6b97faca72",
+              "file": "editor/full-page-build-walkthrough.spec.ts",
+              "line": 405,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-15T06:08:48.095Z",
+    "duration": 89731.62199999999,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "ariaLabel": "Lawatan permulaan",
+  "next": "Seterusnya",
+  "back": "Kembali",
+  "finish": "Mula",
+  "close": "Tutup lawatan",
+  "skip": "Langkau lawatan",
+  "stepCounter": "Langkah {{current}} daripada {{total}}",
+  "steps": {
+    "welcome": {
+      "title": "Selamat datang ke Landing Page Builder! 👋",
+      "description": "Jom kita lakukan lawatan ringkas supaya anda tahu di mana semuanya berada sebelum mula membina."
+    },
+    "insertPanel": {
+      "title": "Tambah kandungan di sini",
+      "description": "Ini ialah panel Insert — semua yang anda tambah pada halaman bermula dari sini. Mari lihat tiga perkara utama yang boleh anda masukkan."
+    },
+    "addSection": {
+      "title": "Section menyusun halaman anda",
+      "description": "Section ialah baris selebar penuh pada halaman anda. Klik \"Section\" untuk menambah satu — halaman biasanya terdiri daripada beberapa section yang disusun dari atas ke bawah (hero, ciri-ciri, footer, dan lain-lain)."
+    },
+    "addBlock": {
+      "title": "Block menyusun kandungan dalam section",
+      "description": "Block berada di dalam section dan mengumpulkan kandungan bersama, seperti kad atau lajur. Klik \"Block\" untuk menambah satu di tempat yang anda pilih."
+    },
+    "addContents": {
+      "title": "Contents ialah apa yang dilihat pelawat",
+      "description": "Text, Image dan Button ialah kandungan sebenar yang diletakkan di dalam block — inilah yang dibaca, dilihat dan diklik oleh pelawat anda."
+    },
+    "canvas": {
+      "title": "Ini ialah kanvas anda",
+      "description": "Ini ialah halaman langsung anda. Klik mana-mana elemen untuk memilihnya, kemudian sunting kandungan dan gayanya menggunakan panel di sebelah kanan."
+    },
+    "propertyPanel": {
+      "title": "Tukar ke panel Property",
+      "description": "Klik ikon ini untuk bertukar daripada panel Insert kepada panel Property — di sinilah anda akan menggayakan dan mengkonfigurasi apa sahaja yang anda pilih."
+    },
+    "propertyControls": {
+      "title": "Laraskan apa yang dipilih",
+      "description": "Apabila sesuatu dipilih, warna, ruang, teks, sempadan dan tetapan lain akan dipaparkan di sini — di sinilah anda memperhalusi rupa mana-mana elemen pada halaman anda."
+    },
+    "pageName": {
+      "title": "Namakan halaman anda",
+      "description": "Klik tajuk halaman pada bar atas untuk menamakannya semula — begitulah cara anda akan menjumpainya kelak dalam papan pemuka anda."
+    },
+    "viewSwitcher": {
+      "title": "Pratonton pada saiz berbeza",
+      "description": "Tukar antara Desktop, Tablet dan Mobile di sini untuk melihat bagaimana halaman anda menyesuaikan diri pada setiap saiz skrin."
+    },
+    "thumbnailCapture": {
+      "title": "Tangkap imej kecil (thumbnail)",
+      "description": "Buka panel Page Settings untuk menangkap dan mengemas kini imej kecil yang dipaparkan untuk halaman ini dalam papan pemuka anda."
+    },
+    "changeImage": {
+      "title": "Buka pencipta thumbnail",
+      "description": "Klik \"Change\" untuk membuka dialog penciptaan thumbnail untuk halaman ini."
+    },
+    "createThumbnail": {
+      "title": "Pilih bilangan dan ciptakannya",
+      "description": "Di dalam dialog, pilih berapa banyak seksyen untuk disertakan dalam pratonton, kemudian klik Create untuk menangkap dan menyimpan thumbnail baharu untuk halaman anda."
+    },
+    "save": {
+      "title": "Simpan kerja anda",
+      "description": "Perubahan tidak akan diterbitkan sehingga anda simpan. Klik di sini (atau tekan Ctrl+S) pada bila-bila masa untuk menyimpan kemajuan anda."
+    },
+    "preview": {
+      "title": "Pratonton halaman anda",
+      "description": "Lihat dengan tepat bagaimana rupa halaman anda kepada pelawat sebelum anda menerbitkannya."
+    },
+    "done": {
+      "title": "Anda sudah bersedia! 🎉",
+      "description": "Itulah perkara asas. Terokai dengan bebas — anda boleh membuka semula panduan ini bila-bila masa melalui butang bantuan di bar atas."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "tooltip": {
+    "duplicate": "Дублировать",
+    "createTemplate": "Создать шаблон",
+    "delete": "Удалить",
+    "selectParent": "Выбрать родителя",
+    "link": "Ссылка",
+    "moreActions": "Ещё действия"
+  },
+  "menu": {
+    "actionsLabel": "Действия",
+    "copy": "Копировать",
+    "paste": "Вставить",
+    "duplicate": "Дублировать",
+    "replace": "Заменить",
+    "replaceDone": "Элемент заменён",
+    "replaceSectionMismatch": "Раздел страницы можно заменить только другим разделом",
+    "delete": "Удалить",
+    "group": "Группировать",
+    "split": "Разделить",
+    "joinWithNext": "Объединить со следующим",
+    "moveRow": "Переместить ← →",
+    "moveColumn": "Переместить ↑ ↓",
+    "showGrid": "Показать фон сетки",
+    "hideGrid": "Скрыть фон сетки",
+    "selectParent": "Выбрать родителя",
+    "importHtml": "Импортировать HTML",
+    "exportHtml": "Экспортировать как HTML",
+    "exportImage": "Экспортировать как изображение",
+    "importHtmlDescription": "Вставьте HTML, чтобы заменить содержимое этого элемента.",
+    "importHtmlSuccess": "Заменено импортированным HTML",
+    "importHtmlFailed": "Не удалось преобразовать этот HTML",
+    "importHtmlNothingConverted": "В этом HTML не найдено ничего для преобразования",
+    "exportHtmlSuccess": "HTML скопирован в буфер обмена",
+    "exportHtmlFailed": "Не удалось найти этот элемент на холсте",
+    "exportImageFailed": "Не удалось захватить этот элемент"
+  },
+  "createTemplateModal": {
+    "title": "Подтверждение создания!",
+    "description": "Вы уверены, что хотите создать это как подшаблон?"
+  },
+  "toast": {
+    "subTemplateCreated": "Подшаблон {{name}} успешно создан!"
+  },
+  "dialog": {
+    "cancel": "Отмена"
+  }
+}

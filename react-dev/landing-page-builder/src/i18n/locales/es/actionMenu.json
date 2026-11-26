@@ -1,0 +1,48 @@
+{
+  "tooltip": {
+    "duplicate": "Duplicar",
+    "createTemplate": "Crear plantilla",
+    "delete": "Eliminar",
+    "selectParent": "Seleccionar elemento padre",
+    "link": "Enlace",
+    "moreActions": "Más acciones"
+  },
+  "menu": {
+    "actionsLabel": "Acciones",
+    "copy": "Copiar",
+    "paste": "Pegar",
+    "duplicate": "Duplicar",
+    "replace": "Reemplazar",
+    "replaceDone": "Elemento reemplazado",
+    "replaceSectionMismatch": "Una sección de página solo se puede reemplazar por otra sección",
+    "delete": "Eliminar",
+    "group": "Agrupar",
+    "split": "Dividir",
+    "joinWithNext": "Unir con el siguiente",
+    "moveRow": "Mover ← →",
+    "moveColumn": "Mover ↑ ↓",
+    "showGrid": "Mostrar fondo de cuadrícula",
+    "hideGrid": "Ocultar fondo de cuadrícula",
+    "selectParent": "Seleccionar elemento padre",
+    "importHtml": "Importar HTML",
+    "exportHtml": "Exportar como HTML",
+    "exportImage": "Exportar como imagen",
+    "importHtmlDescription": "Pega HTML para reemplazar el contenido de este elemento.",
+    "importHtmlSuccess": "Reemplazado con el HTML importado",
+    "importHtmlFailed": "No se pudo convertir ese HTML",
+    "importHtmlNothingConverted": "No se encontró nada convertible en ese HTML",
+    "exportHtmlSuccess": "HTML copiado al portapapeles",
+    "exportHtmlFailed": "No se encontró este elemento en el lienzo",
+    "exportImageFailed": "No se pudo capturar este elemento"
+  },
+  "createTemplateModal": {
+    "title": "¡Confirmación de creación!",
+    "description": "¿Seguro que deseas crear esto como subplantilla?"
+  },
+  "toast": {
+    "subTemplateCreated": "¡La subplantilla {{name}} se creó correctamente!"
+  },
+  "dialog": {
+    "cancel": "Cancelar"
+  }
+}

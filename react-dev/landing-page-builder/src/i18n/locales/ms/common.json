@@ -1,0 +1,46 @@
+{
+  "language": {
+    "label": "Bahasa",
+    "en": "Bahasa Inggeris"
+  },
+  "planTierSaveWarning": "Nota: {{count}} elemen pada halaman ini hanya untuk pelan {{tiers}}. Halaman ini hanya boleh digunakan untuk acara pelan {{tiers}}.",
+  "planTierBanner": "Halaman ini mengandungi {{count}} elemen khas Enterprise. Ia hanya boleh digunakan untuk acara pelan Enterprise.",
+  "navbar": {
+    "backToDashboard": "Kembali ke papan pemuka",
+    "pageTitle": "Tajuk halaman",
+    "untitled": "Tanpa Tajuk",
+    "view": "Paparan :",
+    "previewDesktopView": "Pratonton paparan desktop",
+    "desktop": "Desktop",
+    "previewTabletView": "Pratonton paparan tablet",
+    "tablet": "Tablet",
+    "previewMobileView": "Pratonton paparan mudah alih",
+    "mobile": "Mudah Alih",
+    "allChangesSaved": "Semua perubahan disimpan",
+    "synced": "Disegerakkan",
+    "unsavedChangesTitle": "Anda mempunyai perubahan yang belum disimpan",
+    "unsavedChanges": "Perubahan Belum Disimpan",
+    "savingChanges": "Menyimpan perubahan…",
+    "syncing": "Menyegerakkan",
+    "failedToSaveChanges": "Gagal menyimpan perubahan",
+    "errorSyncing": "Ralat Penyegerakan",
+    "savedToLocalStorageOnly": "Disimpan ke storan tempatan sahaja (penyegerakan pelayan gagal)",
+    "savedToLocal": "Disimpan secara tempatan",
+    "openTour": "Mulakan lawatan",
+    "toggleTheme": "Togol tema",
+    "toggleThemeShortcut": "Togol tema ({{keys}})",
+    "saveShortcut": "Simpan ({{keys}})",
+    "save": "Simpan",
+    "savePage": "Simpan halaman",
+    "switchToPreviewShortcut": "Tukar ke Pratonton ({{keys}})",
+    "switchToPreview": "Tukar ke Pratonton",
+    "switchToPreviewPage": "Tukar ke halaman pratonton",
+    "preview": "Pratonton",
+    "networkError": "Ralat rangkaian!"
+  },
+  "canvas": {
+    "openInsertPanel": "Buka panel Sisip",
+    "openPropertyPanel": "Buka panel Sifat",
+    "emptyPageMessage": "Halaman anda kosong. Mulakan dengan menyisipkan seksyen."
+  }
+}

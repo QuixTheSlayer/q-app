@@ -1,0 +1,48 @@
+{
+  "tooltip": {
+    "duplicate": "ပွားရန်",
+    "createTemplate": "တမ်းပလိတ်ဖန်တီးရန်",
+    "delete": "ဖျက်ရန်",
+    "selectParent": "မိဘရွေးရန်",
+    "link": "လင့်ခ်",
+    "moreActions": "နောက်ထပ်လုပ်ဆောင်ချက်များ"
+  },
+  "menu": {
+    "actionsLabel": "လုပ်ဆောင်ချက်များ",
+    "copy": "ကူးရန်",
+    "paste": "ကူးထည့်ရန်",
+    "duplicate": "ပွားရန်",
+    "replace": "အစားထိုးရန်",
+    "replaceDone": "Element ကို အစားထိုးပြီးပါပြီ",
+    "replaceSectionMismatch": "စာမျက်နှာ section ကို အခြား section ဖြင့်သာ အစားထိုးနိုင်သည်",
+    "delete": "ဖျက်ရန်",
+    "group": "အုပ်စုဖွဲ့ရန်",
+    "split": "ခွဲရန်",
+    "joinWithNext": "နောက်တစ်ခုနှင့် ပေါင်းရန်",
+    "moveRow": "ရွှေ့ရန် ← →",
+    "moveColumn": "ရွှေ့ရန် ↑ ↓",
+    "showGrid": "ဂရစ်နောက်ခံပြရန်",
+    "hideGrid": "ဂရစ်နောက်ခံဖျောက်ရန်",
+    "selectParent": "မိဘရွေးရန်",
+    "importHtml": "HTML တင်သွင်းရန်",
+    "exportHtml": "HTML အဖြစ် ထုတ်ယူရန်",
+    "exportImage": "ပုံအဖြစ် ထုတ်ယူရန်",
+    "importHtmlDescription": "ဒီ element ၏ အကြောင်းအရာများကို အစားထိုးရန် HTML ကို paste လုပ်ပါ။",
+    "importHtmlSuccess": "တင်သွင်းထားသော HTML ဖြင့် အစားထိုးပြီးပါပြီ",
+    "importHtmlFailed": "ထို HTML ကို ပြောင်းလဲ၍မရပါ",
+    "importHtmlNothingConverted": "ထို HTML တွင် ပြောင်းလဲနိုင်သော အရာမတွေ့ပါ",
+    "exportHtmlSuccess": "HTML ကို clipboard သို့ ကူးယူပြီးပါပြီ",
+    "exportHtmlFailed": "canvas ပေါ်တွင် ဒီ element ကို ရှာမတွေ့ပါ",
+    "exportImageFailed": "ဒီ element ကို capture လုပ်၍မရပါ"
+  },
+  "createTemplateModal": {
+    "title": "လုပ်ဆောင်ချက်အတည်ပြုချက် ဖန်တီးရန်!",
+    "description": "ဤအရာကို ခွဲထုတ်တမ်းပလိတ်အဖြစ် ဖန်တီးရန် သေချာပါသလား?"
+  },
+  "toast": {
+    "subTemplateCreated": "ခွဲထုတ်တမ်းပလိတ် {{name}} ကို အောင်မြင်စွာဖန်တီးပြီးပါပြီ!"
+  },
+  "dialog": {
+    "cancel": "မလုပ်တော့ပါ"
+  }
+}

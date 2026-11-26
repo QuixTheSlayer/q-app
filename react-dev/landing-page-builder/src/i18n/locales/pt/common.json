@@ -1,0 +1,46 @@
+{
+  "language": {
+    "label": "Idioma",
+    "en": "Inglês"
+  },
+  "planTierSaveWarning": "Nota: {{count}} elemento(s) nesta página são exclusivos do plano {{tiers}}. Esta página só pode ser utilizada em eventos do plano {{tiers}}.",
+  "planTierBanner": "Esta página inclui {{count}} elemento(s) exclusivo(s) do plano Enterprise. Só pode ser utilizada em eventos do plano Enterprise.",
+  "navbar": {
+    "backToDashboard": "Voltar ao painel",
+    "pageTitle": "Título da página",
+    "untitled": "Sem título",
+    "view": "Vista :",
+    "previewDesktopView": "Pré-visualizar vista de secretária",
+    "desktop": "Secretária",
+    "previewTabletView": "Pré-visualizar vista de tablet",
+    "tablet": "Tablet",
+    "previewMobileView": "Pré-visualizar vista de telemóvel",
+    "mobile": "Telemóvel",
+    "allChangesSaved": "Todas as alterações guardadas",
+    "synced": "Sincronizado",
+    "unsavedChangesTitle": "Tem alterações não guardadas",
+    "unsavedChanges": "Alterações Não Guardadas",
+    "savingChanges": "A guardar alterações…",
+    "syncing": "A sincronizar",
+    "failedToSaveChanges": "Falha ao guardar as alterações",
+    "errorSyncing": "Erro de Sincronização",
+    "savedToLocalStorageOnly": "Guardado apenas localmente (falha na sincronização com o servidor)",
+    "savedToLocal": "Guardado localmente",
+    "openTour": "Iniciar tour",
+    "toggleTheme": "Alternar tema",
+    "toggleThemeShortcut": "Alternar tema ({{keys}})",
+    "saveShortcut": "Guardar ({{keys}})",
+    "save": "Guardar",
+    "savePage": "Guardar página",
+    "switchToPreviewShortcut": "Mudar para Pré-visualização ({{keys}})",
+    "switchToPreview": "Mudar para Pré-visualização",
+    "switchToPreviewPage": "Mudar para a página de pré-visualização",
+    "preview": "Pré-visualização",
+    "networkError": "Erro de rede!"
+  },
+  "canvas": {
+    "openInsertPanel": "Abrir painel de Inserção",
+    "openPropertyPanel": "Abrir painel de Propriedades",
+    "emptyPageMessage": "A sua página está vazia. Comece por inserir uma secção."
+  }
+}

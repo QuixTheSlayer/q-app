@@ -1,0 +1,46 @@
+{
+  "language": {
+    "label": "Язык",
+    "en": "Английский"
+  },
+  "planTierSaveWarning": "Обратите внимание: {{count}} элемент(ов) на этой странице доступны только в тарифе {{tiers}}. Эту страницу можно использовать только для мероприятий с тарифом {{tiers}}.",
+  "planTierBanner": "На этой странице есть {{count}} элемент(ов), доступных только в тарифе Enterprise. Её можно использовать только для мероприятий с тарифом Enterprise.",
+  "navbar": {
+    "backToDashboard": "Назад к панели управления",
+    "pageTitle": "Название страницы",
+    "untitled": "Без названия",
+    "view": "Вид :",
+    "previewDesktopView": "Предпросмотр в виде компьютера",
+    "desktop": "Компьютер",
+    "previewTabletView": "Предпросмотр в виде планшета",
+    "tablet": "Планшет",
+    "previewMobileView": "Предпросмотр в виде телефона",
+    "mobile": "Телефон",
+    "allChangesSaved": "Все изменения сохранены",
+    "synced": "Синхронизировано",
+    "unsavedChangesTitle": "У вас есть несохранённые изменения",
+    "unsavedChanges": "Несохранённые изменения",
+    "savingChanges": "Сохранение изменений…",
+    "syncing": "Синхронизация",
+    "failedToSaveChanges": "Не удалось сохранить изменения",
+    "errorSyncing": "Ошибка синхронизации",
+    "savedToLocalStorageOnly": "Сохранено только локально (синхронизация с сервером не удалась)",
+    "savedToLocal": "Сохранено локально",
+    "openTour": "Начать тур",
+    "toggleTheme": "Переключить тему",
+    "toggleThemeShortcut": "Переключить тему ({{keys}})",
+    "saveShortcut": "Сохранить ({{keys}})",
+    "save": "Сохранить",
+    "savePage": "Сохранить страницу",
+    "switchToPreviewShortcut": "Перейти в режим предпросмотра ({{keys}})",
+    "switchToPreview": "Перейти в режим предпросмотра",
+    "switchToPreviewPage": "Перейти в режим предпросмотра страницы",
+    "preview": "Предпросмотр",
+    "networkError": "Ошибка сети!"
+  },
+  "canvas": {
+    "openInsertPanel": "Открыть панель вставки",
+    "openPropertyPanel": "Открыть панель свойств",
+    "emptyPageMessage": "Ваша страница пуста. Начните со вставки секции."
+  }
+}

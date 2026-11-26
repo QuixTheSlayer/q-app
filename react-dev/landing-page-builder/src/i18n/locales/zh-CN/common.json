@@ -1,0 +1,46 @@
+{
+  "language": {
+    "label": "语言",
+    "en": "英语"
+  },
+  "planTierSaveWarning": "注意：此页面上有 {{count}} 个元素仅限 {{tiers}} 版本使用。此页面只能用于 {{tiers}} 版本的活动。",
+  "planTierBanner": "此页面包含 {{count}} 个仅限企业版的元素，只能用于企业版活动。",
+  "navbar": {
+    "backToDashboard": "返回控制台",
+    "pageTitle": "页面标题",
+    "untitled": "未命名",
+    "view": "视图：",
+    "previewDesktopView": "预览桌面端视图",
+    "desktop": "桌面端",
+    "previewTabletView": "预览平板端视图",
+    "tablet": "平板端",
+    "previewMobileView": "预览移动端视图",
+    "mobile": "移动端",
+    "allChangesSaved": "所有更改已保存",
+    "synced": "已同步",
+    "unsavedChangesTitle": "您有未保存的更改",
+    "unsavedChanges": "未保存的更改",
+    "savingChanges": "正在保存更改……",
+    "syncing": "同步中",
+    "failedToSaveChanges": "保存更改失败",
+    "errorSyncing": "同步出错",
+    "savedToLocalStorageOnly": "仅保存到本地存储（服务器同步失败）",
+    "savedToLocal": "已保存到本地",
+    "openTour": "开始导览",
+    "toggleTheme": "切换主题",
+    "toggleThemeShortcut": "切换主题（{{keys}}）",
+    "saveShortcut": "保存（{{keys}}）",
+    "save": "保存",
+    "savePage": "保存页面",
+    "switchToPreviewShortcut": "切换到预览（{{keys}}）",
+    "switchToPreview": "切换到预览",
+    "switchToPreviewPage": "切换到预览页面",
+    "preview": "预览",
+    "networkError": "网络错误！"
+  },
+  "canvas": {
+    "openInsertPanel": "打开插入面板",
+    "openPropertyPanel": "打开属性面板",
+    "emptyPageMessage": "您的页面为空。请先插入一个区块。"
+  }
+}

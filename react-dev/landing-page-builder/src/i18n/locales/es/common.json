@@ -1,0 +1,46 @@
+{
+  "language": {
+    "label": "Idioma",
+    "en": "Inglés"
+  },
+  "planTierSaveWarning": "Nota: {{count}} elemento(s) de esta página son exclusivos del plan {{tiers}}. Esta página solo puede usarse en eventos con el plan {{tiers}}.",
+  "planTierBanner": "Esta página incluye {{count}} elemento(s) exclusivos de Enterprise. Solo puede usarse en eventos con el plan Enterprise.",
+  "navbar": {
+    "backToDashboard": "Volver al panel",
+    "pageTitle": "Título de la página",
+    "untitled": "Sin título",
+    "view": "Vista :",
+    "previewDesktopView": "Vista previa de escritorio",
+    "desktop": "Escritorio",
+    "previewTabletView": "Vista previa de tableta",
+    "tablet": "Tableta",
+    "previewMobileView": "Vista previa móvil",
+    "mobile": "Móvil",
+    "allChangesSaved": "Todos los cambios guardados",
+    "synced": "Sincronizado",
+    "unsavedChangesTitle": "Tienes cambios sin guardar",
+    "unsavedChanges": "Cambios sin guardar",
+    "savingChanges": "Guardando cambios…",
+    "syncing": "Sincronizando",
+    "failedToSaveChanges": "No se pudieron guardar los cambios",
+    "errorSyncing": "Error de sincronización",
+    "savedToLocalStorageOnly": "Guardado solo en el almacenamiento local (falló la sincronización con el servidor)",
+    "savedToLocal": "Guardado localmente",
+    "openTour": "Iniciar recorrido",
+    "toggleTheme": "Cambiar tema",
+    "toggleThemeShortcut": "Cambiar tema ({{keys}})",
+    "saveShortcut": "Guardar ({{keys}})",
+    "save": "Guardar",
+    "savePage": "Guardar página",
+    "switchToPreviewShortcut": "Cambiar a vista previa ({{keys}})",
+    "switchToPreview": "Cambiar a vista previa",
+    "switchToPreviewPage": "Cambiar a la página de vista previa",
+    "preview": "Vista previa",
+    "networkError": "¡Error de red!"
+  },
+  "canvas": {
+    "openInsertPanel": "Abrir panel de inserción",
+    "openPropertyPanel": "Abrir panel de propiedades",
+    "emptyPageMessage": "Tu página está vacía. Empieza insertando una sección."
+  }
+}

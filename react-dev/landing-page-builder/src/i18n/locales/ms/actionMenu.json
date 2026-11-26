@@ -1,0 +1,48 @@
+{
+  "tooltip": {
+    "duplicate": "Duplikat",
+    "createTemplate": "Cipta Templat",
+    "delete": "Padam",
+    "selectParent": "Pilih induk",
+    "link": "Pautan",
+    "moreActions": "Lagi Tindakan"
+  },
+  "menu": {
+    "actionsLabel": "Tindakan",
+    "copy": "Salin",
+    "paste": "Tampal",
+    "duplicate": "Duplikat",
+    "replace": "Ganti",
+    "replaceDone": "Elemen telah diganti",
+    "replaceSectionMismatch": "Bahagian halaman hanya boleh diganti dengan bahagian lain",
+    "delete": "Padam",
+    "group": "Kumpulkan",
+    "split": "Pisah",
+    "joinWithNext": "Gabung dengan seterusnya",
+    "moveRow": "Gerak ← →",
+    "moveColumn": "Gerak ↑ ↓",
+    "showGrid": "Tunjukkan latar belakang grid",
+    "hideGrid": "Sembunyikan latar belakang grid",
+    "selectParent": "Pilih induk",
+    "importHtml": "Import HTML",
+    "exportHtml": "Eksport sebagai HTML",
+    "exportImage": "Eksport sebagai imej",
+    "importHtmlDescription": "Tampal HTML untuk menggantikan kandungan elemen ini.",
+    "importHtmlSuccess": "Digantikan dengan HTML yang diimport",
+    "importHtmlFailed": "Tidak dapat menukar HTML itu",
+    "importHtmlNothingConverted": "Tiada apa-apa yang boleh ditukar dijumpai dalam HTML itu",
+    "exportHtmlSuccess": "HTML disalin ke papan keratan",
+    "exportHtmlFailed": "Tidak dapat mencari elemen ini pada kanvas",
+    "exportImageFailed": "Tidak dapat menangkap elemen ini"
+  },
+  "createTemplateModal": {
+    "title": "Pengesahan Tindakan Cipta!",
+    "description": "Adakah anda pasti mahu mencipta ini sebagai sub-templat?"
+  },
+  "toast": {
+    "subTemplateCreated": "Sub-Templat {{name}} berjaya dicipta!"
+  },
+  "dialog": {
+    "cancel": "Batal"
+  }
+}

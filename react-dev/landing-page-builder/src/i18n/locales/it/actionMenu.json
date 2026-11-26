@@ -1,0 +1,48 @@
+{
+  "tooltip": {
+    "duplicate": "Duplica",
+    "createTemplate": "Crea modello",
+    "delete": "Elimina",
+    "selectParent": "Seleziona elemento superiore",
+    "link": "Link",
+    "moreActions": "Altre azioni"
+  },
+  "menu": {
+    "actionsLabel": "Azioni",
+    "copy": "Copia",
+    "paste": "Incolla",
+    "duplicate": "Duplica",
+    "replace": "Sostituisci",
+    "replaceDone": "Elemento sostituito",
+    "replaceSectionMismatch": "Una sezione di pagina può essere sostituita solo con un'altra sezione",
+    "delete": "Elimina",
+    "group": "Raggruppa",
+    "split": "Dividi",
+    "joinWithNext": "Unisci al successivo",
+    "moveRow": "Sposta ← →",
+    "moveColumn": "Sposta ↑ ↓",
+    "showGrid": "Mostra sfondo griglia",
+    "hideGrid": "Nascondi sfondo griglia",
+    "selectParent": "Seleziona elemento superiore",
+    "importHtml": "Importa HTML",
+    "exportHtml": "Esporta come HTML",
+    "exportImage": "Esporta come immagine",
+    "importHtmlDescription": "Incolla HTML per sostituire il contenuto di questo elemento.",
+    "importHtmlSuccess": "Sostituito con l'HTML importato",
+    "importHtmlFailed": "Impossibile convertire quell'HTML",
+    "importHtmlNothingConverted": "Non è stato trovato nulla di convertibile in quell'HTML",
+    "exportHtmlSuccess": "HTML copiato negli appunti",
+    "exportHtmlFailed": "Impossibile trovare questo elemento sulla canvas",
+    "exportImageFailed": "Impossibile catturare questo elemento"
+  },
+  "createTemplateModal": {
+    "title": "Conferma creazione azione!",
+    "description": "Vuoi davvero creare questo elemento come sotto-modello?"
+  },
+  "toast": {
+    "subTemplateCreated": "Sotto-modello {{name}} creato con successo!"
+  },
+  "dialog": {
+    "cancel": "Annulla"
+  }
+}

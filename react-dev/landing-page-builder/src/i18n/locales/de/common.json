@@ -1,0 +1,46 @@
+{
+  "language": {
+    "label": "Sprache",
+    "en": "Englisch"
+  },
+  "planTierSaveWarning": "Hinweis: {{count}} Element(e) auf dieser Seite sind nur für {{tiers}} verfügbar. Diese Seite kann nur für Events des Plans {{tiers}} verwendet werden.",
+  "planTierBanner": "Diese Seite enthält {{count}} Element(e), die nur für Enterprise verfügbar sind. Sie kann nur für Events des Enterprise-Plans verwendet werden.",
+  "navbar": {
+    "backToDashboard": "Zurück zum Dashboard",
+    "pageTitle": "Seitentitel",
+    "untitled": "Unbenannt",
+    "view": "Ansicht :",
+    "previewDesktopView": "Desktop-Ansicht anzeigen",
+    "desktop": "Desktop",
+    "previewTabletView": "Tablet-Ansicht anzeigen",
+    "tablet": "Tablet",
+    "previewMobileView": "Mobile Ansicht anzeigen",
+    "mobile": "Mobil",
+    "allChangesSaved": "Alle Änderungen gespeichert",
+    "synced": "Synchronisiert",
+    "unsavedChangesTitle": "Du hast ungespeicherte Änderungen",
+    "unsavedChanges": "Ungespeicherte Änderungen",
+    "savingChanges": "Änderungen werden gespeichert…",
+    "syncing": "Wird synchronisiert",
+    "failedToSaveChanges": "Änderungen konnten nicht gespeichert werden",
+    "errorSyncing": "Fehler bei der Synchronisierung",
+    "savedToLocalStorageOnly": "Nur lokal gespeichert (Serversynchronisierung fehlgeschlagen)",
+    "savedToLocal": "Lokal gespeichert",
+    "openTour": "Tour starten",
+    "toggleTheme": "Design umschalten",
+    "toggleThemeShortcut": "Design umschalten ({{keys}})",
+    "saveShortcut": "Speichern ({{keys}})",
+    "save": "Speichern",
+    "savePage": "Seite speichern",
+    "switchToPreviewShortcut": "Zur Vorschau wechseln ({{keys}})",
+    "switchToPreview": "Zur Vorschau wechseln",
+    "switchToPreviewPage": "Zur Vorschau der Seite wechseln",
+    "preview": "Vorschau",
+    "networkError": "Netzwerkfehler!"
+  },
+  "canvas": {
+    "openInsertPanel": "Einfügen-Panel öffnen",
+    "openPropertyPanel": "Eigenschaften-Panel öffnen",
+    "emptyPageMessage": "Deine Seite ist leer. Beginne, indem du einen Bereich einfügst."
+  }
+}

@@ -1,0 +1,52 @@
+/* The editing surface. Fonts, colors and spacing come from the page it sits in (the builder styles text blocks itself). */
+.rt-editor {
+	outline: none;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	position: relative;
+	-webkit-user-modify: read-write;
+}
+
+.rt-editor[contenteditable="false"] {
+	cursor: default;
+}
+
+.rt-editor > :first-child {
+	margin-top: 0;
+}
+
+.rt-editor > :last-child {
+	margin-bottom: 0;
+}
+
+/* Placeholder on the first line while the document is empty. */
+.rt-editor.rt-empty > p:first-child::before {
+	content: var(--rt-placeholder, "");
+	color: #9ca3af;
+	pointer-events: none;
+	float: left;
+	height: 0;
+}
+
+.rt-editor a {
+	cursor: text;
+}
+
+.rt-editor pre {
+	white-space: pre-wrap;
+}
+
+/* Table cells picked with the mouse. */
+.rt-editor [data-rt-selected] {
+	background: rgb(147 197 253 / 0.45);
+}
+
+.rt-editor.rt-cellsel ::selection {
+	background: transparent;
+}
+
+/* The boxed editor shows tables with visible borders (the builder styles tables itself, so this is scoped to the box). */
+.rt-boxed .rt-editor table { border-collapse: collapse; width: 100%; margin: 0.5em 0; }
+.rt-boxed .rt-editor td, .rt-boxed .rt-editor th { border: 1px solid #cbd5e1; padding: 6px 8px; vertical-align: top; min-width: 2em; }
+.rt-boxed .rt-editor th { background: rgba(148, 163, 184, 0.18); font-weight: 600; text-align: left; }
+.rt-boxed .rt-editor td[data-rt-selected], .rt-boxed .rt-editor th[data-rt-selected] { background: rgba(59, 130, 246, 0.25); }

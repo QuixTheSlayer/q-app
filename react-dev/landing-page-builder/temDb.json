@@ -1,0 +1,116 @@
+{
+    "node": {
+        "id": "c7c1167d-17ec-4c2c-adee-9a3a36a2bc29",
+        "type": "container",
+        "contentType": "block",
+        "layout": "row",
+        "style": {
+            "position": "relative",
+            "display": "flex",
+            "justifyContent": "flex-start",
+            "alignItems": "stretch",
+            "flexDirection": "column",
+            "flexWrap": "nowrap",
+            "gap": "0.5em",
+            "padding": "1.6875em",
+            "height": "13.4375em",
+            "minHeight": "4em",
+            "width": "100%",
+            "borderStyle": "dashed",
+            "borderWidth": "0.0625em",
+            "borderColor": "#aaa",
+            "borderRadius": "1.5625em",
+            "borderTopLeftRadius": "1.5625em",
+            "borderTopRightRadius": "1.5625em",
+            "borderBottomLeftRadius": "1.5625em",
+            "borderBottomRightRadius": "1.5625em",
+            "backgroundColor": "#ffffff"
+        },
+        "children": [{
+                "id": "75316f5e-c76f-4d98-879a-2dd388f9d55e",
+                "type": "container",
+                "contentType": "block",
+                "layout": "row",
+                "style": {
+                    "position": "relative",
+                    "display": "flex",
+                    "justifyContent": "flex-start",
+                    "alignItems": "stretch",
+                    "flexDirection": "column",
+                    "flexWrap": "nowrap",
+                    "gap": "0em",
+                    "padding": "0em",
+                    "height": "fit-content",
+                    "minHeight": "4em",
+                    "width": "100%",
+                    "backgroundColor": "#ffffff"
+                },
+                "children": [{
+                        "id": "bd0411f7-ff16-4414-9963-11b3b1c00369",
+                        "type": "content",
+                        "contentType": "text",
+                        "style": {},
+                        "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"\",\"fontFamily\":\"Arial, sans-serif\",\"fontSize\":\"1em\"}}],\"text\":\"Deadline\"}]}]}",
+                        "collapsable": false,
+                        "attributes": {
+                            "id": "bd0411f7-ff16-4414-9963-11b3b1c00369"
+                        }
+                    },
+                    {
+                        "id": "a145d72d-0135-440c-8e88-369e289c51e1",
+                        "type": "content",
+                        "contentType": "text",
+                        "style": {},
+                        "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"\",\"fontFamily\":\"Arial, sans-serif\",\"fontSize\":\"1em\"}}],\"text\":\"30\"},{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"\",\"fontFamily\":\"Arial, sans-serif\",\"fontSize\":\"1em\"}},{\"type\":\"superscript\"}],\"text\":\"th\"},{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"\",\"fontFamily\":\"Arial, sans-serif\",\"fontSize\":\"1em\"}}],\"text\":\" June 2026,\"}]}]}",
+                        "collapsable": false,
+                        "attributes": {
+                            "id": "a145d72d-0135-440c-8e88-369e289c51e1"
+                        }
+                    },
+                    {
+                        "id": "028fda41-a9cf-47d2-a55e-815767b1103f",
+                        "type": "content",
+                        "contentType": "text",
+                        "style": {},
+                        "children": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"textStyle\",\"attrs\":{\"color\":\"\",\"fontFamily\":\"Arial, sans-serif\",\"fontSize\":\"1em\"}}],\"text\":\"Tuesday, 23:59, GMT+8(SGT)\"}]}]}",
+                        "collapsable": false,
+                        "attributes": {
+                            "id": "028fda41-a9cf-47d2-a55e-815767b1103f"
+                        }
+                    }
+                ],
+                "attributes": {
+                    "id": "75316f5e-c76f-4d98-879a-2dd388f9d55e"
+                }
+            },
+            {
+                "id": "35642264-038c-46be-812a-483c00f45f8f",
+                "type": "content",
+                "contentType": "button",
+                "style": {
+                    "width": "100%",
+                    "height": "3.5625em",
+                    "display": "inline-flex",
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "fontSize": "1.125em",
+                    "fontWeight": "semibold",
+                    "color": "#F0F0F0",
+                    "backgroundColor": "#00c47c",
+                    "borderRadius": "0.5em",
+                    "paddingRight": "1em",
+                    "paddingLeft": "1em"
+                },
+                "attributes": {
+                    "href": "{{event_submit_entry_url}}",
+                    "target": "_blank",
+                    "id": "35642264-038c-46be-812a-483c00f45f8f"
+                },
+                "children": "Submit here"
+            }
+        ],
+        "attributes": {
+            "id": "d66edce0-30cf-4ad3-b2e3-2dba32f725d1"
+        }
+    }
+}

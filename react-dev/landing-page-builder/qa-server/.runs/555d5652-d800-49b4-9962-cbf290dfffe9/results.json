@@ -1,0 +1,332 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test/editor/full-page-build-walkthrough.spec.ts",
+      "--project=chromium",
+      "--reporter=./qa-server/qa-reporter.mjs,json,html"
+    ],
+    "configFile": "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\playwright.config.ts",
+    "rootDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/wamp64/www/Judgify-Judging-Panel-v2/react-dev/landing-page-builder/playwright-test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "C:\\wamp64\\www\\Judgify-Judging-Panel-v2\\react-dev\\landing-page-builder\\qa-server\\qa-reporter.mjs"
+      ],
+      [
+        "json"
+      ],
+      [
+        "html"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "editor\\full-page-build-walkthrough.spec.ts",
+      "file": "editor/full-page-build-walkthrough.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Full page build walkthrough (real vhost)",
+          "file": "editor/full-page-build-walkthrough.spec.ts",
+          "line": 233,
+          "column": 6,
+          "specs": [
+            {
+              "title": "dashboard -> Build new -> build a real event page section by section -> Save",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 35366,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Open the landing page dashboard",
+                          "duration": 7622
+                        },
+                        {
+                          "title": "Click \"+ Build new\" and land in a brand-new editor",
+                          "duration": 1751
+                        },
+                        {
+                          "title": "Add the \"Hero\" section",
+                          "duration": 529
+                        },
+                        {
+                          "title": "Insert Text into Hero",
+                          "duration": 511
+                        },
+                        {
+                          "title": "Insert Button into Hero",
+                          "duration": 419
+                        },
+                        {
+                          "title": "Insert Countdown into Hero",
+                          "duration": 502
+                        },
+                        {
+                          "title": "Add the \"Event Details\" section",
+                          "duration": 439
+                        },
+                        {
+                          "title": "Insert Image into Event Details",
+                          "duration": 506
+                        },
+                        {
+                          "title": "Insert Icon Block into Event Details",
+                          "duration": 471
+                        },
+                        {
+                          "title": "Insert Separators into Event Details",
+                          "duration": 465
+                        },
+                        {
+                          "title": "Insert End date into Event Details",
+                          "duration": 429
+                        },
+                        {
+                          "title": "Insert End hour into Event Details",
+                          "duration": 473
+                        },
+                        {
+                          "title": "Insert Time zone into Event Details",
+                          "duration": 432
+                        },
+                        {
+                          "title": "Add the \"Schedule\" section",
+                          "duration": 433
+                        },
+                        {
+                          "title": "Insert Timeline into Schedule",
+                          "duration": 527
+                        },
+                        {
+                          "title": "Insert Table into Schedule",
+                          "duration": 1136
+                        },
+                        {
+                          "title": "Add the \"Speakers & Judges\" section",
+                          "duration": 510
+                        },
+                        {
+                          "title": "Insert Tabs into Speakers & Judges",
+                          "duration": 586
+                        },
+                        {
+                          "title": "Insert Accordion into Speakers & Judges",
+                          "duration": 518
+                        },
+                        {
+                          "title": "Insert Testimonial Slider into Speakers & Judges",
+                          "duration": 652
+                        },
+                        {
+                          "title": "Insert Rating into Speakers & Judges",
+                          "duration": 632
+                        },
+                        {
+                          "title": "Add the \"Registration & Pricing\" section",
+                          "duration": 615
+                        },
+                        {
+                          "title": "Insert Submit Entry Button into Registration & Pricing",
+                          "duration": 568
+                        },
+                        {
+                          "title": "Insert Register Button into Registration & Pricing",
+                          "duration": 466
+                        },
+                        {
+                          "title": "Insert Pricing Toggle into Registration & Pricing",
+                          "duration": 575
+                        },
+                        {
+                          "title": "Insert Progress Bar into Registration & Pricing",
+                          "duration": 570
+                        },
+                        {
+                          "title": "Insert Counter into Registration & Pricing",
+                          "duration": 606
+                        },
+                        {
+                          "title": "Insert Chart into Registration & Pricing",
+                          "duration": 653
+                        },
+                        {
+                          "title": "Add the \"Media & Location\" section",
+                          "duration": 568
+                        },
+                        {
+                          "title": "Insert Youtube into Media & Location",
+                          "duration": 672
+                        },
+                        {
+                          "title": "Insert Vimeo into Media & Location",
+                          "duration": 585
+                        },
+                        {
+                          "title": "Insert Google Map into Media & Location",
+                          "duration": 604
+                        },
+                        {
+                          "title": "Insert Web View into Media & Location",
+                          "duration": 614
+                        },
+                        {
+                          "title": "Insert Image Slider into Media & Location",
+                          "duration": 683
+                        },
+                        {
+                          "title": "Insert Image Carousel into Media & Location",
+                          "duration": 673
+                        },
+                        {
+                          "title": "Insert Image Flip Flop into Media & Location",
+                          "duration": 733
+                        },
+                        {
+                          "title": "Add the \"FAQ & Social\" section",
+                          "duration": 627
+                        },
+                        {
+                          "title": "Insert FAQ into FAQ & Social",
+                          "duration": 730
+                        },
+                        {
+                          "title": "Insert Social into FAQ & Social",
+                          "duration": 598
+                        },
+                        {
+                          "title": "Give the Hero section real event copy",
+                          "duration": 3739
+                        },
+                        {
+                          "title": "Every node type landed in the Layers tree",
+                          "duration": 177
+                        },
+                        {
+                          "title": "Save the finished page",
+                          "duration": 507
+                        }
+                      ],
+                      "startTime": "2026-09-15T04:54:07.556Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9c475a795b66fecf2b6f-ec94d8bbed04d312af19",
+              "file": "editor/full-page-build-walkthrough.spec.ts",
+              "line": 234,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-15T04:54:06.987Z",
+    "duration": 36251.676,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

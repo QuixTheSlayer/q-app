@@ -1,0 +1,131 @@
+{
+  "language": {
+    "label": "Language",
+    "en": "English"
+  },
+  "planTierSaveWarning": "Note: {{count}} element(s) on this page are {{tiers}}-only. This page can only be used for {{tiers}} plan events.",
+  "planTierBanner": "This page includes {{count}} Enterprise-only element(s). It can only be used for Enterprise plan events.",
+  "unauthorized": {
+    "whyTitle": "Why this can happen",
+    "backToDashboard": "Back to dashboard",
+    "tryAgain": "Try again",
+    "signInAgain": "Sign in again",
+    "goBack": "Go back",
+    "support": "Still stuck? Contact support:",
+    "copyDetails": "Copy details",
+    "copied": "Copied",
+    "noAccess": {
+      "kicker": "Access denied",
+      "title": "You don't have access to this page",
+      "description": "You're signed in, but this page belongs to another account or hasn't been shared with you.",
+      "reasons": [
+        "The page was created by a different user or organization.",
+        "The link or page id is wrong, or the page was deleted.",
+        "Your role or plan doesn't include editing this page."
+      ]
+    },
+    "publicPage": {
+      "kicker": "Page not available",
+      "title": "This page isn't available to you",
+      "description": "The page you tried to open isn't public. It may be unpublished, private or no longer exist.",
+      "reasons": [
+        "The page has not been published yet, or was taken down.",
+        "The link is wrong or out of date.",
+        "The event it belongs to is private or closed."
+      ]
+    },
+    "signIn": {
+      "kicker": "Sign in required",
+      "title": "Your session has ended",
+      "description": "Sign in again to keep working on this page. Your saved changes are safe.",
+      "reasons": [
+        "You were signed out because the session expired.",
+        "You signed out in another tab or window.",
+        "Your browser blocked the cookie that keeps you signed in."
+      ]
+    }
+  },
+  "errorPage": {
+    "retryIn": "Try again in {{seconds}}s",
+    "notFound": {
+      "kicker": "Page not found",
+      "title": "We can't find this page",
+      "description": "The page you're looking for doesn't exist or has been moved.",
+      "reasons": [
+        "The link or page id has a typo.",
+        "The page was deleted or moved to another event.",
+        "You opened a link from an older version of the app."
+      ]
+    },
+    "notFoundPublic": {
+      "kicker": "Page not found",
+      "title": "This page doesn't exist",
+      "description": "We couldn't find the page you tried to open. It may have been removed or the link may be wrong.",
+      "reasons": [
+        "The link is wrong or out of date.",
+        "The page was unpublished or deleted.",
+        "The event it belongs to no longer exists."
+      ]
+    },
+    "tooManyRequests": {
+      "kicker": "Slow down a little",
+      "title": "Too many requests",
+      "description": "We received a lot of requests from you in a short time. Wait a moment and try again. Your work is safe.",
+      "reasons": [
+        "Many pages or tabs were loading or saving at the same time.",
+        "A script or extension kept refreshing the page.",
+        "The service is busy and is limiting requests for a short while."
+      ]
+    },
+    "serverError": {
+      "kicker": "Something went wrong",
+      "title": "Our server ran into a problem",
+      "description": "This is on our side, not yours. Try again in a moment. Your saved changes are safe.",
+      "reasons": [
+        "The server had an unexpected error or is being updated.",
+        "A service this page depends on is not answering.",
+        "It is usually short. If it stays, contact support."
+      ]
+    }
+  },
+  "navbar": {
+    "backToDashboard": "Back to dashboard",
+    "pageTitle": "Page title",
+    "untitled": "Untitled",
+    "view": "View :",
+    "previewDesktopView": "Preview desktop view",
+    "desktop": "Desktop",
+    "previewTabletView": "Preview tablet view",
+    "tablet": "Tablet",
+    "previewMobileView": "Preview mobile view",
+    "mobile": "Mobile",
+    "allChangesSaved": "All changes saved",
+    "synced": "Synced",
+    "unsavedChangesTitle": "You have unsaved changes",
+    "unsavedChanges": "Unsaved Changes",
+    "saveBeforePreview": "You have unsaved changes. Save them before opening Preview.",
+    "savingChanges": "Saving changes…",
+    "syncing": "Syncing",
+    "failedToSaveChanges": "Failed to save changes",
+    "errorSyncing": "Error Syncing",
+    "savedToLocalStorageOnly": "Saved to local storage only (server sync failed)",
+    "savedToLocal": "Saved to local",
+    "openTour": "Take a tour",
+    "toggleTheme": "Toggle theme",
+    "toggleThemeShortcut": "Toggle theme ({{keys}})",
+    "saveShortcut": "Save ({{keys}})",
+    "save": "Save",
+    "savePage": "Save page",
+    "switchToPreviewShortcut": "Switch to Preview ({{keys}})",
+    "switchToPreview": "Switch to Preview",
+    "switchToPreviewPage": "Switch to preview page",
+    "preview": "Preview",
+    "networkError": "Network error!",
+    "moreActions": "More"
+  },
+  "canvas": {
+    "openInsertPanel": "Open Insert panel",
+    "openPropertyPanel": "Open Property panel",
+    "emptyPageMessage": "Your page is empty. Start by inserting a section."
+  }
+}

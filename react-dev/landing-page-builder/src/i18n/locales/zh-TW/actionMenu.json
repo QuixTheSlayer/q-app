@@ -1,0 +1,48 @@
+{
+  "tooltip": {
+    "duplicate": "複製一份",
+    "createTemplate": "建立範本",
+    "delete": "刪除",
+    "selectParent": "選取上層元件",
+    "link": "連結",
+    "moreActions": "更多操作"
+  },
+  "menu": {
+    "actionsLabel": "操作",
+    "copy": "複製",
+    "paste": "貼上",
+    "duplicate": "複製一份",
+    "replace": "取代",
+    "replaceDone": "元素已取代",
+    "replaceSectionMismatch": "頁面區塊只能以另一個區塊取代",
+    "delete": "刪除",
+    "group": "群組",
+    "split": "分割",
+    "joinWithNext": "與下一個合併",
+    "moveRow": "移動列 ← →",
+    "moveColumn": "移動欄 ↑ ↓",
+    "showGrid": "顯示格線背景",
+    "hideGrid": "隱藏格線背景",
+    "selectParent": "選取上層元件",
+    "importHtml": "匯入 HTML",
+    "exportHtml": "匯出為 HTML",
+    "exportImage": "匯出為圖片",
+    "importHtmlDescription": "貼上 HTML 以取代此元素的內容。",
+    "importHtmlSuccess": "已替換為匯入的 HTML",
+    "importHtmlFailed": "無法轉換該 HTML",
+    "importHtmlNothingConverted": "在該 HTML 中找不到可轉換的內容",
+    "exportHtmlSuccess": "HTML 已複製到剪貼簿",
+    "exportHtmlFailed": "在畫布上找不到此元素",
+    "exportImageFailed": "無法擷取此元素"
+  },
+  "createTemplateModal": {
+    "title": "確認建立操作！",
+    "description": "確定要將此項目建立為子範本嗎？"
+  },
+  "toast": {
+    "subTemplateCreated": "子範本「{{name}}」建立成功！"
+  },
+  "dialog": {
+    "cancel": "取消"
+  }
+}
